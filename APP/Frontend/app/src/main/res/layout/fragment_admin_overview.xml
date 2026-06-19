@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_light">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <Row
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/ic_3d_admin" />
+            <TextView
+                style="@style/HeadingBold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="Admin Dashboard"
+                android:textSize="24sp" />
+        </Row>
+
+        <!-- Stats Grid 2x2 -->
+        <androidx.gridlayout.widget.GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            app:columnCount="2"
+            app:alignmentMode="alignMargins">
+
+            <include layout="@layout/item_admin_stat" android:id="@+id/statTotal" app:layout_columnWeight="1" />
+            <include layout="@layout/item_admin_stat" android:id="@+id/statResolved" app:layout_columnWeight="1" />
+            <include layout="@layout/item_admin_stat" android:id="@+id/statBreached" app:layout_columnWeight="1" />
+            <include layout="@layout/item_admin_stat" android:id="@+id/statUsers" app:layout_columnWeight="1" />
+
+        </androidx.gridlayout.widget.GridLayout>
+
+        <!-- Donut Chart -->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="24dp"
+            app:cardCornerRadius="24dp"
+            app:strokeWidth="0dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="16dp">
+                <TextView style="@style/HeadingBold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="SLA Performance" />
+                <com.github.mikephil.charting.charts.PieChart
+                    android:id="@+id/slaChart"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <TextView
+            style="@style/HeadingBold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="Recent Activity" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvRecentActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:nestedScrollingEnabled="false" />
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,44 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="80dp"
+    android:height="80dp"
+    android:viewportWidth="80"
+    android:viewportHeight="80">
+
+    <!-- Elevation Shadow -->
+    <path
+        android:pathData="M40,75m-30,0a30,5 0,1 1,60 0a30,5 0,1 1,-60 0"
+        android:fillColor="#1A000000" />
+
+    <!-- Radar Base -->
+    <path
+        android:pathData="M40,40m-30,0a30,30 0,1 1,60 0a30,30 0,1 1,-60 0"
+        android:fillColor="#0A1628" />
+
+    <!-- Radar Rings -->
+    <path
+        android:pathData="M40,40m-20,0a20,20 0,1 1,40 0a20,20 0,1 1,-40 0 M40,40m-10,0a10,10 0,1 1,20 0a10,10 0,1 1,-20 0"
+        android:strokeWidth="1"
+        android:strokeColor="#1A00BFA5" />
+
+    <!-- Radar Sweep -->
+    <path
+        android:pathData="M40,40L65,25A30,30 0,0 0,40,10Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:centerX="40"
+                android:centerY="40"
+                android:gradientRadius="30"
+                android:type="radial">
+                <item android:color="#8000BFA5" android:offset="0.0" />
+                <item android:color="#0000BFA5" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Tracking Dot -->
+    <path
+        android:pathData="M50,25m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0"
+        android:fillColor="#00BFA5" />
+
+</vector>

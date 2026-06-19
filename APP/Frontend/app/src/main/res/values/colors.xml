@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- New Professional Color System -->
+    <color name="primary_deep_navy">#0A1628</color>
+    <color name="primary_teal">#00BFA5</color>
+    <color name="primary_teal_dark">#004D40</color>
+    <color name="accent_gold">#FFD54F</color>
+    <color name="accent_gold_dark">#F9A825</color>
+    <color name="surface_card">#F8FFFE</color>
+    <color name="error_red">#EF5350</color>
+    <color name="success_green">#00C853</color>
+    <color name="warning_orange">#FF6D00</color>
+    <color name="text_primary">#0D1B2A</color>
+    <color name="text_secondary">#546E7A</color>
+    <color name="background_light">#EEF7F6</color>
+    <color name="grey_300">#E0E0E0</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+</resources>

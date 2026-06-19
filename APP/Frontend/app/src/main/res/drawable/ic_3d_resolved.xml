@@ -1,0 +1,36 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="80dp"
+    android:height="80dp"
+    android:viewportWidth="80"
+    android:viewportHeight="80">
+
+    <!-- Elevation Shadow -->
+    <path
+        android:pathData="M40,75m-30,0a30,5 0,1 1,60 0a30,5 0,1 1,-60 0"
+        android:fillColor="#1A000000" />
+
+    <!-- Resolved Circle -->
+    <path
+        android:pathData="M40,40m-30,0a30,30 0,1 1,60 0a30,30 0,1 1,-60 0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:centerX="40"
+                android:centerY="40"
+                android:gradientRadius="30"
+                android:type="radial">
+                <item android:color="#00E676" android:offset="0.0" />
+                <item android:color="#00C853" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- White Checkmark -->
+    <path
+        android:pathData="M25,40l10,10l20,-20"
+        android:strokeWidth="6"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+</vector>

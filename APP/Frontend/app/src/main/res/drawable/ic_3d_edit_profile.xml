@@ -1,0 +1,39 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="80dp"
+    android:height="80dp"
+    android:viewportWidth="80"
+    android:viewportHeight="80">
+
+    <!-- Elevation Shadow -->
+    <path
+        android:pathData="M22,70h36v6h-36z"
+        android:fillColor="#1A000000" />
+
+    <!-- Pad Body -->
+    <path
+        android:pathData="M20,15h40a4,4 0,0 1,4 4v50a4,4 0,0 1,-4 4h-40a4,4 0,0 1,-4 -4v-50a4,4 0,0 1,4 -4z"
+        android:fillColor="#0A1628" />
+
+    <!-- Pencil Body -->
+    <path
+        android:pathData="M35,20 L45,20 L45,55 L40,65 L35,55 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="35"
+                android:startY="20"
+                android:endX="45"
+                android:endY="65"
+                android:type="linear">
+                <item android:color="#00BFA5" android:offset="0.0" />
+                <item android:color="#00796B" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Highlight on Pencil -->
+    <path
+        android:pathData="M38,22h2v30h-2z"
+        android:fillColor="#33FFFFFF" />
+
+</vector>

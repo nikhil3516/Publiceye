@@ -1,0 +1,1802 @@
+[
+  {
+    "id": "TC-001",
+    "description": "Foul smelling garbage piled up near the market area, dogs are eating from it and creating a hazard.",
+    "categoryHint": "garbage",
+    "expectedCategory": "garbage",
+    "expectedSeverity": "high",
+    "expectedOfficer": "Rajesh Kumar",
+    "expectedSla": 24
+  },
+  {
+    "id": "TC-002",
+    "description": "A deep pothole has opened up on the main road, causing a minor accident and blocking traffic.",
+    "categoryHint": "pothole",
+    "expectedCategory": "pothole",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Priya Sharma",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-003",
+    "description": "The streetlight at the school intersection is broken and not working, causing safety concerns.",
+    "categoryHint": "streetlight",
+    "expectedCategory": "streetlight",
+    "expectedSeverity": "medium",
+    "expectedOfficer": "Amit Verma",
+    "expectedSla": 72
+  },
+  {
+    "id": "TC-004",
+    "description": "Water pipeline is leaking on 5th avenue, flooding the pavement with drinking water.",
+    "categoryHint": "water_supply",
+    "expectedCategory": "water_supply",
+    "expectedSeverity": "high",
+    "expectedOfficer": "Sunita Patel",
+    "expectedSla": 24
+  },
+  {
+    "id": "TC-005",
+    "description": "Raw sewage is overflowing from the main drain onto the residential street causing a major stink.",
+    "categoryHint": "drainage",
+    "expectedCategory": "drainage",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Mohan Das",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-006",
+    "description": "The lane divider paint has faded and traffic signals are blinking yellow at the crossroad.",
+    "categoryHint": "roads",
+    "expectedCategory": "roads",
+    "expectedSeverity": "low",
+    "expectedOfficer": "Priya Sharma",
+    "expectedSla": 168
+  },
+  {
+    "id": "TC-007",
+    "description": "There is a fire hazard due to a sparking electrical box near the market complex.",
+    "categoryHint": "public_safety",
+    "expectedCategory": "public_safety",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Kavitha Reddy",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-008",
+    "description": "Some stray cattle are sitting on the road causing minor slow down of vehicles.",
+    "categoryHint": "others",
+    "expectedCategory": "others",
+    "expectedSeverity": "low",
+    "expectedOfficer": "Rajesh Kumar",
+    "expectedSla": 168
+  },
+  {
+    "id": "TC-009",
+    "description": "Trash and litter lying all over the public park benches, needs sweeping and cleaning.",
+    "categoryHint": "garbage",
+    "expectedCategory": "garbage",
+    "expectedSeverity": "low",
+    "expectedOfficer": "Rajesh Kumar",
+    "expectedSla": 168
+  },
+  {
+    "id": "TC-010",
+    "description": "Broken pavement tiles on the pedestrian walkway are damaged and causing tripping issues.",
+    "categoryHint": "roads",
+    "expectedCategory": "roads",
+    "expectedSeverity": "medium",
+    "expectedOfficer": "Priya Sharma",
+    "expectedSla": 72
+  },
+  {
+    "id": "TC-011",
+    "description": "A dangerous collapse of the boundary wall has occurred near the public school garden.",
+    "categoryHint": "public_safety",
+    "expectedCategory": "public_safety",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Kavitha Reddy",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-012",
+    "description": "Leaking water tap in the public bathroom is constantly wasting drinking water.",
+    "categoryHint": "water_supply",
+    "expectedCategory": "water_supply",
+    "expectedSeverity": "medium",
+    "expectedOfficer": "Sunita Patel",
+    "expectedSla": 72
+  },
+  {
+    "id": "TC-013",
+    "description": "Blocked drain is causing sewage to overflow and flood the basement of the building.",
+    "categoryHint": "drainage",
+    "expectedCategory": "drainage",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Mohan Das",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-014",
+    "description": "The streetlight bulb is missing and needs immediate replacement at Lane 3.",
+    "categoryHint": "streetlight",
+    "expectedCategory": "streetlight",
+    "expectedSeverity": "medium",
+    "expectedOfficer": "Amit Verma",
+    "expectedSla": 72
+  },
+  {
+    "id": "TC-015",
+    "description": "Piles of plastic dump and dirty waste left behind after the weekly local market.",
+    "categoryHint": "garbage",
+    "expectedCategory": "garbage",
+    "expectedSeverity": "low",
+    "expectedOfficer": "Rajesh Kumar",
+    "expectedSla": 168
+  },
+  {
+    "id": "TC-016",
+    "description": "Urgent repair needed for the main bridge road which is uneven and has multiple craters.",
+    "categoryHint": "pothole",
+    "expectedCategory": "pothole",
+    "expectedSeverity": "high",
+    "expectedOfficer": "Priya Sharma",
+    "expectedSla": 24
+  },
+  {
+    "id": "TC-017",
+    "description": "Dangerous sparking electrical wire is hanging low from the post over the pathway.",
+    "categoryHint": "public_safety",
+    "expectedCategory": "public_safety",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Kavitha Reddy",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-018",
+    "description": "Water contamination has been reported in the municipal supply lines of Sector 2.",
+    "categoryHint": "water_supply",
+    "expectedCategory": "water_supply",
+    "expectedSeverity": "low",
+    "expectedOfficer": "Sunita Patel",
+    "expectedSla": 168
+  },
+  {
+    "id": "TC-019",
+    "description": "An open manhole is left without a lid on the busy crossroad, causing extreme hazard.",
+    "categoryHint": "drainage",
+    "expectedCategory": "drainage",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Mohan Das",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-020",
+    "description": "Streetlight is not working and lane is dark during the night times.",
+    "categoryHint": "streetlight",
+    "expectedCategory": "streetlight",
+    "expectedSeverity": "medium",
+    "expectedOfficer": "Amit Verma",
+    "expectedSla": 72
+  },
+  {
+    "id": "TC-021",
+    "description": "Illegal encroachment on the public pavement has blocked pedestrian movement.",
+    "categoryHint": "roads",
+    "expectedCategory": "roads",
+    "expectedSeverity": "high",
+    "expectedOfficer": "Priya Sharma",
+    "expectedSla": 24
+  },
+  {
+    "id": "TC-022",
+    "description": "Foul smell and pest issues due to uncleaned dustbins behind the housing complex.",
+    "categoryHint": "garbage",
+    "expectedCategory": "garbage",
+    "expectedSeverity": "medium",
+    "expectedOfficer": "Rajesh Kumar",
+    "expectedSla": 72
+  },
+  {
+    "id": "TC-023",
+    "description": "Deep depression in the road has turned into a dangerous crater causing vehicle damage.",
+    "categoryHint": "pothole",
+    "expectedCategory": "pothole",
+    "expectedSeverity": "high",
+    "expectedOfficer": "Priya Sharma",
+    "expectedSla": 24
+  },
+  {
+    "id": "TC-024",
+    "description": "A broken pipeline is leaking water and flooding the local park area.",
+    "categoryHint": "water_supply",
+    "expectedCategory": "water_supply",
+    "expectedSeverity": "high",
+    "expectedOfficer": "Sunita Patel",
+    "expectedSla": 24
+  },
+  {
+    "id": "TC-025",
+    "description": "Main road traffic signal is damaged and causing major traffic confusion.",
+    "categoryHint": "roads",
+    "expectedCategory": "roads",
+    "expectedSeverity": "medium",
+    "expectedOfficer": "Priya Sharma",
+    "expectedSla": 72
+  },
+  {
+    "id": "TC-026",
+    "description": "Raw sewage and wastewater is overflowing onto the main lane.",
+    "categoryHint": "drainage",
+    "expectedCategory": "drainage",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Mohan Das",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-027",
+    "description": "Report of minor injury due to uneven tiles on the sector footpath.",
+    "categoryHint": "roads",
+    "expectedCategory": "roads",
+    "expectedSeverity": "high",
+    "expectedOfficer": "Priya Sharma",
+    "expectedSla": 24
+  },
+  {
+    "id": "TC-028",
+    "description": "Dead animal lying near the garbage dump causing a massive stink.",
+    "categoryHint": "garbage",
+    "expectedCategory": "garbage",
+    "expectedSeverity": "high",
+    "expectedOfficer": "Rajesh Kumar",
+    "expectedSla": 24
+  },
+  {
+    "id": "TC-029",
+    "description": "Unsafe building structure shows signs of immediate collapse.",
+    "categoryHint": "public_safety",
+    "expectedCategory": "public_safety",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Kavitha Reddy",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-030",
+    "description": "A broken street light lamp is blinking constantly causing annoyance.",
+    "categoryHint": "streetlight",
+    "expectedCategory": "streetlight",
+    "expectedSeverity": "medium",
+    "expectedOfficer": "Amit Verma",
+    "expectedSla": 72
+  },
+  {
+    "id": "TC-031",
+    "description": "Blocked sewer line is causing drainage problems in the entire block.",
+    "categoryHint": "drainage",
+    "expectedCategory": "drainage",
+    "expectedSeverity": "high",
+    "expectedOfficer": "Mohan Das",
+    "expectedSla": 24
+  },
+  {
+    "id": "TC-032",
+    "description": "Pothole repair is pending for over a month on the crossroad.",
+    "categoryHint": "pothole",
+    "expectedCategory": "pothole",
+    "expectedSeverity": "medium",
+    "expectedOfficer": "Priya Sharma",
+    "expectedSla": 72
+  },
+  {
+    "id": "TC-033",
+    "description": "Trash bin has not been cleared and is dirty, causing pest issues and a bad smell.",
+    "categoryHint": "garbage",
+    "expectedCategory": "garbage",
+    "expectedSeverity": "medium",
+    "expectedOfficer": "Rajesh Kumar",
+    "expectedSla": 72
+  },
+  {
+    "id": "TC-034",
+    "description": "Water leakage from a broken public tap is flooding the street.",
+    "categoryHint": "water_supply",
+    "expectedCategory": "water_supply",
+    "expectedSeverity": "high",
+    "expectedOfficer": "Sunita Patel",
+    "expectedSla": 24
+  },
+  {
+    "id": "TC-035",
+    "description": "Sparking transformer near school represents an emergency hazard.",
+    "categoryHint": "public_safety",
+    "expectedCategory": "public_safety",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Kavitha Reddy",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-036",
+    "description": "A pile of garbage is lying near the Main Street, attracting pests. This is an urgent emergency. Extreme hazard and immediate risk of injury!",
+    "categoryHint": "garbage",
+    "expectedCategory": "garbage",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Rajesh Kumar",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-037",
+    "description": "A large road damage crater has formed near Sector 4 Market, causing vehicles to swerve. Highly dangerous situation with a high risk of collapse and fire accident.",
+    "categoryHint": "pothole",
+    "expectedCategory": "pothole",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Priya Sharma",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-038",
+    "description": "A streetlight lamp is blinking constantly near Lane 5 Residential Area, causing annoyance. Live wire sparking nearby, posing an unsafe fire hazard.",
+    "categoryHint": "streetlight",
+    "expectedCategory": "streetlight",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Amit Verma",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-039",
+    "description": "The municipal water supply in the local park appears contaminated with mud. Blocked road and sewage flooding has created an emergency health hazard.",
+    "categoryHint": "water_supply",
+    "expectedCategory": "water_supply",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Sunita Patel",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-040",
+    "description": "An open sewer drain in the school crossroad is emitting a terrible stink. Unsafe structural condition showing immediate signs of collapse.",
+    "categoryHint": "drainage",
+    "expectedCategory": "drainage",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Mohan Das",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-041",
+    "description": "Sidewalk tiles are missing near Metro Station Exit, forcing pedestrians onto the road. This is an urgent emergency. Extreme hazard and immediate risk of injury!",
+    "categoryHint": "roads",
+    "expectedCategory": "roads",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Priya Sharma",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-042",
+    "description": "Emergency situation near Bus Stop junction due to structural collapse. Highly dangerous situation with a high risk of collapse and fire accident.",
+    "categoryHint": "public_safety",
+    "expectedCategory": "public_safety",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Kavitha Reddy",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-043",
+    "description": "Stray cattle are sitting on the road near Sector 7 Block B, slowing traffic. Live wire sparking nearby, posing an unsafe fire hazard.",
+    "categoryHint": "others",
+    "expectedCategory": "others",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Rajesh Kumar",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-044",
+    "description": "The trash bin in High School road is overflowing and needs sweeping and cleaning. Emergency repair is requested for this critical issue.",
+    "categoryHint": "garbage",
+    "expectedCategory": "garbage",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Rajesh Kumar",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-045",
+    "description": "The road surface near the municipal hospital lane is extremely uneven with multiple depressions. The low hanging wires present a severe hazard.",
+    "categoryHint": "pothole",
+    "expectedCategory": "pothole",
+    "expectedSeverity": "high",
+    "expectedOfficer": "Priya Sharma",
+    "expectedSla": 24
+  },
+  {
+    "id": "TC-046",
+    "description": "The illumination at the junction of Sector 10 Colony is poor due to damaged lights. This is urgent and needs attention to prevent an accident.",
+    "categoryHint": "streetlight",
+    "expectedCategory": "streetlight",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Amit Verma",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-047",
+    "description": "Water is gushing out from a broken main supply line near Temple road. The road is blocked and causing a major hazard.",
+    "categoryHint": "water_supply",
+    "expectedCategory": "water_supply",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Sunita Patel",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-048",
+    "description": "Wastewater flooding near Railway Station approach has turned the street into a swamp. The overflow is causing a dangerous situation.",
+    "categoryHint": "drainage",
+    "expectedCategory": "drainage",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Mohan Das",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-049",
+    "description": "Heavy vehicle encroachment on the pavement near the community center is causing blockages. Emergency repair is requested for this critical issue.",
+    "categoryHint": "roads",
+    "expectedCategory": "roads",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Priya Sharma",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-050",
+    "description": "A dangerous sparking electrical box near the public playground represents a fire hazard. The low hanging wires present a severe hazard.",
+    "categoryHint": "public_safety",
+    "expectedCategory": "public_safety",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Kavitha Reddy",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-051",
+    "description": "Unauthorised posters are pasted all over the walls of Lane 12 crossing. This is urgent and needs attention to prevent an accident.",
+    "categoryHint": "others",
+    "expectedCategory": "others",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Rajesh Kumar",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-052",
+    "description": "People are dumping waste on the side of Sector 3 main road, creating a dirty environment. It has been broken and pending action for a week.",
+    "categoryHint": "garbage",
+    "expectedCategory": "garbage",
+    "expectedSeverity": "medium",
+    "expectedOfficer": "Rajesh Kumar",
+    "expectedSla": 72
+  },
+  {
+    "id": "TC-053",
+    "description": "A dangerous pit has opened up on Commercial street after the heavy rain. A leaking pipe is causing a minor stink and smell.",
+    "categoryHint": "pothole",
+    "expectedCategory": "pothole",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Priya Sharma",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-054",
+    "description": "The public street light pole near the botanical garden entrance has no bulb. The missing cover is causing a pest problem.",
+    "categoryHint": "streetlight",
+    "expectedCategory": "streetlight",
+    "expectedSeverity": "medium",
+    "expectedOfficer": "Amit Verma",
+    "expectedSla": 72
+  },
+  {
+    "id": "TC-055",
+    "description": "Water contamination reported in the storage tanks at Subway passage. We are facing a delay in addressing this broken issue.",
+    "categoryHint": "water_supply",
+    "expectedCategory": "water_supply",
+    "expectedSeverity": "medium",
+    "expectedOfficer": "Sunita Patel",
+    "expectedSla": 72
+  },
+  {
+    "id": "TC-056",
+    "description": "Overflowing drainage water is flooding the basement around Sector 9 Plaza. The damaged section is causing a delay and needs repair.",
+    "categoryHint": "drainage",
+    "expectedCategory": "drainage",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Mohan Das",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-057",
+    "description": "The lane divider paint has faded and traffic signals are blinking yellow on the sports complex entrance. It has been broken and pending action for a week.",
+    "categoryHint": "roads",
+    "expectedCategory": "roads",
+    "expectedSeverity": "medium",
+    "expectedOfficer": "Priya Sharma",
+    "expectedSla": 72
+  },
+  {
+    "id": "TC-058",
+    "description": "An unsafe building wall shows signs of immediate collapse near Market Road. A leaking pipe is causing a minor stink and smell.",
+    "categoryHint": "public_safety",
+    "expectedCategory": "public_safety",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Kavitha Reddy",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-059",
+    "description": "Local park benches are broken in Lane 2 intersection, needs repair. The missing cover is causing a pest problem.",
+    "categoryHint": "others",
+    "expectedCategory": "others",
+    "expectedSeverity": "medium",
+    "expectedOfficer": "Rajesh Kumar",
+    "expectedSla": 72
+  },
+  {
+    "id": "TC-060",
+    "description": "Litter is scattered all over Main Street, causing a foul smell. No immediate threat, but needs monitoring.",
+    "categoryHint": "garbage",
+    "expectedCategory": "garbage",
+    "expectedSeverity": "medium",
+    "expectedOfficer": "Rajesh Kumar",
+    "expectedSla": 72
+  },
+  {
+    "id": "TC-061",
+    "description": "Drivers are complaining about the broken road and crater on Sector 4 Market. It's a minor issue that needs routine maintenance.",
+    "categoryHint": "pothole",
+    "expectedCategory": "pothole",
+    "expectedSeverity": "medium",
+    "expectedOfficer": "Priya Sharma",
+    "expectedSla": 72
+  },
+  {
+    "id": "TC-062",
+    "description": "No functioning streetlight at Lane 5 Residential Area, making it unsafe at night. Please schedule a routine cleaning at your convenience.",
+    "categoryHint": "streetlight",
+    "expectedCategory": "streetlight",
+    "expectedSeverity": "high",
+    "expectedOfficer": "Amit Verma",
+    "expectedSla": 24
+  },
+  {
+    "id": "TC-063",
+    "description": "No water pressure in the municipal connection of the local park. A simple check is required for this case.",
+    "categoryHint": "water_supply",
+    "expectedCategory": "water_supply",
+    "expectedSeverity": "low",
+    "expectedOfficer": "Sunita Patel",
+    "expectedSla": 168
+  },
+  {
+    "id": "TC-064",
+    "description": "Raw sewage is overflowing from the sewer line near the school crossroad. Regular sweeping would resolve this issue.",
+    "categoryHint": "drainage",
+    "expectedCategory": "drainage",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Mohan Das",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-065",
+    "description": "Illegal encroachment by shopkeepers on the footpath has blocked pedestrian movement on Metro Station Exit. No immediate threat, but needs monitoring.",
+    "categoryHint": "roads",
+    "expectedCategory": "roads",
+    "expectedSeverity": "high",
+    "expectedOfficer": "Priya Sharma",
+    "expectedSla": 24
+  },
+  {
+    "id": "TC-066",
+    "description": "A live wire is hanging low from the electrical post over Bus Stop junction. It's a minor issue that needs routine maintenance.",
+    "categoryHint": "public_safety",
+    "expectedCategory": "public_safety",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Kavitha Reddy",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-067",
+    "description": "Noise pollution from loudspeakers near Sector 7 Block B late at night. Please schedule a routine cleaning at your convenience.",
+    "categoryHint": "others",
+    "expectedCategory": "others",
+    "expectedSeverity": "low",
+    "expectedOfficer": "Rajesh Kumar",
+    "expectedSla": 168
+  },
+  {
+    "id": "TC-068",
+    "description": "Uncleaned plastic dump near High School road is causing a nuisance. Live wire sparking nearby, posing an unsafe fire hazard.",
+    "categoryHint": "garbage",
+    "expectedCategory": "garbage",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Rajesh Kumar",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-069",
+    "description": "Deep road depression near the municipal hospital lane is hazardous for motorbikes. Blocked road and sewage flooding has created an emergency health hazard.",
+    "categoryHint": "pothole",
+    "expectedCategory": "pothole",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Priya Sharma",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-070",
+    "description": "Multiple street lamps are burnt out along the footpath of Sector 10 Colony. Unsafe structural condition showing immediate signs of collapse.",
+    "categoryHint": "streetlight",
+    "expectedCategory": "streetlight",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Amit Verma",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-071",
+    "description": "There is a major water pipeline leakage near Temple road, wasting clean drinking water. This is an urgent emergency. Extreme hazard and immediate risk of injury!",
+    "categoryHint": "water_supply",
+    "expectedCategory": "water_supply",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Sunita Patel",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-072",
+    "description": "A blocked drain is causing waterlogging and flooding on Railway Station approach. Highly dangerous situation with a high risk of collapse and fire accident.",
+    "categoryHint": "drainage",
+    "expectedCategory": "drainage",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Mohan Das",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-073",
+    "description": "The pavement tiles near the community center are broken and loose. Live wire sparking nearby, posing an unsafe fire hazard.",
+    "categoryHint": "roads",
+    "expectedCategory": "roads",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Priya Sharma",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-074",
+    "description": "There is a high risk of accident near the public playground due to loose overhead cables. Blocked road and sewage flooding has created an emergency health hazard.",
+    "categoryHint": "public_safety",
+    "expectedCategory": "public_safety",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Kavitha Reddy",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-075",
+    "description": "Stray dogs are roaming in packs and barking around Lane 12 crossing. Unsafe structural condition showing immediate signs of collapse.",
+    "categoryHint": "others",
+    "expectedCategory": "others",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Rajesh Kumar",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-076",
+    "description": "The garbage collection truck did not visit Sector 3 main road this week. This is urgent and needs attention to prevent an accident.",
+    "categoryHint": "garbage",
+    "expectedCategory": "garbage",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Rajesh Kumar",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-077",
+    "description": "Car tires are getting damaged due to the massive road crater at Commercial street. The road is blocked and causing a major hazard.",
+    "categoryHint": "pothole",
+    "expectedCategory": "pothole",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Priya Sharma",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-078",
+    "description": "The streetlight near the botanical garden entrance is broken and not working. The overflow is causing a dangerous situation.",
+    "categoryHint": "streetlight",
+    "expectedCategory": "streetlight",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Amit Verma",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-079",
+    "description": "The water tap in Subway passage is leaking continuously. Emergency repair is requested for this critical issue.",
+    "categoryHint": "water_supply",
+    "expectedCategory": "water_supply",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Sunita Patel",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-080",
+    "description": "The drainage system at Sector 9 Plaza is completely choked with plastic waste. The low hanging wires present a severe hazard.",
+    "categoryHint": "drainage",
+    "expectedCategory": "drainage",
+    "expectedSeverity": "high",
+    "expectedOfficer": "Mohan Das",
+    "expectedSla": 24
+  },
+  {
+    "id": "TC-081",
+    "description": "Traffic congestion is severe at the crossroad of the sports complex entrance due to faulty signals. This is urgent and needs attention to prevent an accident.",
+    "categoryHint": "roads",
+    "expectedCategory": "roads",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Priya Sharma",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-082",
+    "description": "An open electrical transformer near Market Road is sparking. The road is blocked and causing a major hazard.",
+    "categoryHint": "public_safety",
+    "expectedCategory": "public_safety",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Kavitha Reddy",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-083",
+    "description": "Some issues with the landscaping in the common garden of Lane 2 intersection. The overflow is causing a dangerous situation.",
+    "categoryHint": "others",
+    "expectedCategory": "others",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Rajesh Kumar",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-084",
+    "description": "Piles of refuse and litter are scattered around the entrance of Main Street. The missing cover is causing a pest problem.",
+    "categoryHint": "garbage",
+    "expectedCategory": "garbage",
+    "expectedSeverity": "medium",
+    "expectedOfficer": "Rajesh Kumar",
+    "expectedSla": 72
+  },
+  {
+    "id": "TC-085",
+    "description": "There is a deep pothole in the middle of Sector 4 Market, causing traffic delay. We are facing a delay in addressing this broken issue.",
+    "categoryHint": "pothole",
+    "expectedCategory": "pothole",
+    "expectedSeverity": "medium",
+    "expectedOfficer": "Priya Sharma",
+    "expectedSla": 72
+  },
+  {
+    "id": "TC-086",
+    "description": "It is completely dark around Lane 5 Residential Area because the street light bulb is missing. The damaged section is causing a delay and needs repair.",
+    "categoryHint": "streetlight",
+    "expectedCategory": "streetlight",
+    "expectedSeverity": "medium",
+    "expectedOfficer": "Amit Verma",
+    "expectedSla": 72
+  },
+  {
+    "id": "TC-087",
+    "description": "We are facing a severe water shortage in the local park for the past three days. It has been broken and pending action for a week.",
+    "categoryHint": "water_supply",
+    "expectedCategory": "water_supply",
+    "expectedSeverity": "medium",
+    "expectedOfficer": "Sunita Patel",
+    "expectedSla": 72
+  },
+  {
+    "id": "TC-088",
+    "description": "Sewage water is backing up into the houses near the school crossroad. A leaking pipe is causing a minor stink and smell.",
+    "categoryHint": "drainage",
+    "expectedCategory": "drainage",
+    "expectedSeverity": "high",
+    "expectedOfficer": "Mohan Das",
+    "expectedSla": 24
+  },
+  {
+    "id": "TC-089",
+    "description": "Broken road divider near Metro Station Exit is causing confusion. The missing cover is causing a pest problem.",
+    "categoryHint": "roads",
+    "expectedCategory": "roads",
+    "expectedSeverity": "medium",
+    "expectedOfficer": "Priya Sharma",
+    "expectedSla": 72
+  },
+  {
+    "id": "TC-090",
+    "description": "Criminal activity and vandalism reported at the park near Bus Stop junction. We are facing a delay in addressing this broken issue.",
+    "categoryHint": "public_safety",
+    "expectedCategory": "public_safety",
+    "expectedSeverity": "medium",
+    "expectedOfficer": "Kavitha Reddy",
+    "expectedSla": 72
+  },
+  {
+    "id": "TC-091",
+    "description": "Graffiti and defacement on public property near Sector 7 Block B. The damaged section is causing a delay and needs repair.",
+    "categoryHint": "others",
+    "expectedCategory": "others",
+    "expectedSeverity": "medium",
+    "expectedOfficer": "Rajesh Kumar",
+    "expectedSla": 72
+  },
+  {
+    "id": "TC-092",
+    "description": "A pile of garbage is lying near the High School road, attracting pests. Please schedule a routine cleaning at your convenience.",
+    "categoryHint": "garbage",
+    "expectedCategory": "garbage",
+    "expectedSeverity": "medium",
+    "expectedOfficer": "Rajesh Kumar",
+    "expectedSla": 72
+  },
+  {
+    "id": "TC-093",
+    "description": "A large road damage crater has formed near the municipal hospital lane, causing vehicles to swerve. A simple check is required for this case.",
+    "categoryHint": "pothole",
+    "expectedCategory": "pothole",
+    "expectedSeverity": "low",
+    "expectedOfficer": "Priya Sharma",
+    "expectedSla": 168
+  },
+  {
+    "id": "TC-094",
+    "description": "A streetlight lamp is blinking constantly near Sector 10 Colony, causing annoyance. Regular sweeping would resolve this issue.",
+    "categoryHint": "streetlight",
+    "expectedCategory": "streetlight",
+    "expectedSeverity": "low",
+    "expectedOfficer": "Amit Verma",
+    "expectedSla": 168
+  },
+  {
+    "id": "TC-095",
+    "description": "The municipal water supply in Temple road appears contaminated with mud. No immediate threat, but needs monitoring.",
+    "categoryHint": "water_supply",
+    "expectedCategory": "water_supply",
+    "expectedSeverity": "low",
+    "expectedOfficer": "Sunita Patel",
+    "expectedSla": 168
+  },
+  {
+    "id": "TC-096",
+    "description": "An open sewer drain in Railway Station approach is emitting a terrible stink. It's a minor issue that needs routine maintenance.",
+    "categoryHint": "drainage",
+    "expectedCategory": "drainage",
+    "expectedSeverity": "high",
+    "expectedOfficer": "Mohan Das",
+    "expectedSla": 24
+  },
+  {
+    "id": "TC-097",
+    "description": "Sidewalk tiles are missing near the community center, forcing pedestrians onto the road. Please schedule a routine cleaning at your convenience.",
+    "categoryHint": "roads",
+    "expectedCategory": "roads",
+    "expectedSeverity": "medium",
+    "expectedOfficer": "Priya Sharma",
+    "expectedSla": 72
+  },
+  {
+    "id": "TC-098",
+    "description": "Emergency situation near the public playground due to structural collapse. A simple check is required for this case.",
+    "categoryHint": "public_safety",
+    "expectedCategory": "public_safety",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Kavitha Reddy",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-099",
+    "description": "Stray cattle are sitting on the road near Lane 12 crossing, slowing traffic. Regular sweeping would resolve this issue.",
+    "categoryHint": "others",
+    "expectedCategory": "others",
+    "expectedSeverity": "low",
+    "expectedOfficer": "Rajesh Kumar",
+    "expectedSla": 168
+  },
+  {
+    "id": "TC-100",
+    "description": "The trash bin in Sector 3 main road is overflowing and needs sweeping and cleaning. Unsafe structural condition showing immediate signs of collapse.",
+    "categoryHint": "garbage",
+    "expectedCategory": "garbage",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Rajesh Kumar",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-101",
+    "description": "The road surface near Commercial street is extremely uneven with multiple depressions. This is an urgent emergency. Extreme hazard and immediate risk of injury!",
+    "categoryHint": "pothole",
+    "expectedCategory": "pothole",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Priya Sharma",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-102",
+    "description": "The illumination at the junction of the botanical garden entrance is poor due to damaged lights. Highly dangerous situation with a high risk of collapse and fire accident.",
+    "categoryHint": "streetlight",
+    "expectedCategory": "streetlight",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Amit Verma",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-103",
+    "description": "Water is gushing out from a broken main supply line near Subway passage. Live wire sparking nearby, posing an unsafe fire hazard.",
+    "categoryHint": "water_supply",
+    "expectedCategory": "water_supply",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Sunita Patel",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-104",
+    "description": "Wastewater flooding near Sector 9 Plaza has turned the street into a swamp. Blocked road and sewage flooding has created an emergency health hazard.",
+    "categoryHint": "drainage",
+    "expectedCategory": "drainage",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Mohan Das",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-105",
+    "description": "Heavy vehicle encroachment on the pavement near the sports complex entrance is causing blockages. Unsafe structural condition showing immediate signs of collapse.",
+    "categoryHint": "roads",
+    "expectedCategory": "roads",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Priya Sharma",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-106",
+    "description": "A dangerous sparking electrical box near Market Road represents a fire hazard. This is an urgent emergency. Extreme hazard and immediate risk of injury!",
+    "categoryHint": "public_safety",
+    "expectedCategory": "public_safety",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Kavitha Reddy",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-107",
+    "description": "Unauthorised posters are pasted all over the walls of Lane 2 intersection. Highly dangerous situation with a high risk of collapse and fire accident.",
+    "categoryHint": "others",
+    "expectedCategory": "others",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Rajesh Kumar",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-108",
+    "description": "People are dumping waste on the side of Main Street, creating a dirty environment. The overflow is causing a dangerous situation.",
+    "categoryHint": "garbage",
+    "expectedCategory": "garbage",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Rajesh Kumar",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-109",
+    "description": "A dangerous pit has opened up on Sector 4 Market after the heavy rain. Emergency repair is requested for this critical issue.",
+    "categoryHint": "pothole",
+    "expectedCategory": "pothole",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Priya Sharma",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-110",
+    "description": "The public street light pole near Lane 5 Residential Area has no bulb. The low hanging wires present a severe hazard.",
+    "categoryHint": "streetlight",
+    "expectedCategory": "streetlight",
+    "expectedSeverity": "high",
+    "expectedOfficer": "Amit Verma",
+    "expectedSla": 24
+  },
+  {
+    "id": "TC-111",
+    "description": "Water contamination reported in the storage tanks at the local park. This is urgent and needs attention to prevent an accident.",
+    "categoryHint": "water_supply",
+    "expectedCategory": "water_supply",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Sunita Patel",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-112",
+    "description": "Overflowing drainage water is flooding the basement around the school crossroad. The road is blocked and causing a major hazard.",
+    "categoryHint": "drainage",
+    "expectedCategory": "drainage",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Mohan Das",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-113",
+    "description": "The lane divider paint has faded and traffic signals are blinking yellow on Metro Station Exit. The overflow is causing a dangerous situation.",
+    "categoryHint": "roads",
+    "expectedCategory": "roads",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Priya Sharma",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-114",
+    "description": "An unsafe building wall shows signs of immediate collapse near Bus Stop junction. Emergency repair is requested for this critical issue.",
+    "categoryHint": "public_safety",
+    "expectedCategory": "public_safety",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Kavitha Reddy",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-115",
+    "description": "Local park benches are broken in Sector 7 Block B, needs repair. The low hanging wires present a severe hazard.",
+    "categoryHint": "others",
+    "expectedCategory": "others",
+    "expectedSeverity": "high",
+    "expectedOfficer": "Rajesh Kumar",
+    "expectedSla": 24
+  },
+  {
+    "id": "TC-116",
+    "description": "Litter is scattered all over High School road, causing a foul smell. The damaged section is causing a delay and needs repair.",
+    "categoryHint": "garbage",
+    "expectedCategory": "garbage",
+    "expectedSeverity": "medium",
+    "expectedOfficer": "Rajesh Kumar",
+    "expectedSla": 72
+  },
+  {
+    "id": "TC-117",
+    "description": "Drivers are complaining about the broken road and crater on the municipal hospital lane. It has been broken and pending action for a week.",
+    "categoryHint": "pothole",
+    "expectedCategory": "pothole",
+    "expectedSeverity": "medium",
+    "expectedOfficer": "Priya Sharma",
+    "expectedSla": 72
+  },
+  {
+    "id": "TC-118",
+    "description": "No functioning streetlight at Sector 10 Colony, making it unsafe at night. A leaking pipe is causing a minor stink and smell.",
+    "categoryHint": "streetlight",
+    "expectedCategory": "streetlight",
+    "expectedSeverity": "high",
+    "expectedOfficer": "Amit Verma",
+    "expectedSla": 24
+  },
+  {
+    "id": "TC-119",
+    "description": "No water pressure in the municipal connection of Temple road. The missing cover is causing a pest problem.",
+    "categoryHint": "water_supply",
+    "expectedCategory": "water_supply",
+    "expectedSeverity": "medium",
+    "expectedOfficer": "Sunita Patel",
+    "expectedSla": 72
+  },
+  {
+    "id": "TC-120",
+    "description": "Raw sewage is overflowing from the sewer line near Railway Station approach. We are facing a delay in addressing this broken issue.",
+    "categoryHint": "drainage",
+    "expectedCategory": "drainage",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Mohan Das",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-121",
+    "description": "Illegal encroachment by shopkeepers on the footpath has blocked pedestrian movement on the community center. The damaged section is causing a delay and needs repair.",
+    "categoryHint": "roads",
+    "expectedCategory": "roads",
+    "expectedSeverity": "high",
+    "expectedOfficer": "Priya Sharma",
+    "expectedSla": 24
+  },
+  {
+    "id": "TC-122",
+    "description": "A live wire is hanging low from the electrical post over the public playground. It has been broken and pending action for a week.",
+    "categoryHint": "public_safety",
+    "expectedCategory": "public_safety",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Kavitha Reddy",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-123",
+    "description": "Noise pollution from loudspeakers near Lane 12 crossing late at night. A leaking pipe is causing a minor stink and smell.",
+    "categoryHint": "others",
+    "expectedCategory": "others",
+    "expectedSeverity": "medium",
+    "expectedOfficer": "Rajesh Kumar",
+    "expectedSla": 72
+  },
+  {
+    "id": "TC-124",
+    "description": "Uncleaned plastic dump near Sector 3 main road is causing a nuisance. Regular sweeping would resolve this issue.",
+    "categoryHint": "garbage",
+    "expectedCategory": "garbage",
+    "expectedSeverity": "low",
+    "expectedOfficer": "Rajesh Kumar",
+    "expectedSla": 168
+  },
+  {
+    "id": "TC-125",
+    "description": "Deep road depression near Commercial street is hazardous for motorbikes. No immediate threat, but needs monitoring.",
+    "categoryHint": "pothole",
+    "expectedCategory": "pothole",
+    "expectedSeverity": "high",
+    "expectedOfficer": "Priya Sharma",
+    "expectedSla": 24
+  },
+  {
+    "id": "TC-126",
+    "description": "Multiple street lamps are burnt out along the footpath of the botanical garden entrance. It's a minor issue that needs routine maintenance.",
+    "categoryHint": "streetlight",
+    "expectedCategory": "streetlight",
+    "expectedSeverity": "low",
+    "expectedOfficer": "Amit Verma",
+    "expectedSla": 168
+  },
+  {
+    "id": "TC-127",
+    "description": "There is a major water pipeline leakage near Subway passage, wasting clean drinking water. Please schedule a routine cleaning at your convenience.",
+    "categoryHint": "water_supply",
+    "expectedCategory": "water_supply",
+    "expectedSeverity": "low",
+    "expectedOfficer": "Sunita Patel",
+    "expectedSla": 168
+  },
+  {
+    "id": "TC-128",
+    "description": "A blocked drain is causing waterlogging and flooding on Sector 9 Plaza. A simple check is required for this case.",
+    "categoryHint": "drainage",
+    "expectedCategory": "drainage",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Mohan Das",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-129",
+    "description": "The pavement tiles near the sports complex entrance are broken and loose. Regular sweeping would resolve this issue.",
+    "categoryHint": "roads",
+    "expectedCategory": "roads",
+    "expectedSeverity": "medium",
+    "expectedOfficer": "Priya Sharma",
+    "expectedSla": 72
+  },
+  {
+    "id": "TC-130",
+    "description": "There is a high risk of accident near Market Road due to loose overhead cables. No immediate threat, but needs monitoring.",
+    "categoryHint": "public_safety",
+    "expectedCategory": "public_safety",
+    "expectedSeverity": "high",
+    "expectedOfficer": "Kavitha Reddy",
+    "expectedSla": 24
+  },
+  {
+    "id": "TC-131",
+    "description": "Stray dogs are roaming in packs and barking around Lane 2 intersection. It's a minor issue that needs routine maintenance.",
+    "categoryHint": "others",
+    "expectedCategory": "others",
+    "expectedSeverity": "low",
+    "expectedOfficer": "Rajesh Kumar",
+    "expectedSla": 168
+  },
+  {
+    "id": "TC-132",
+    "description": "The garbage collection truck did not visit Main Street this week. Highly dangerous situation with a high risk of collapse and fire accident.",
+    "categoryHint": "garbage",
+    "expectedCategory": "garbage",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Rajesh Kumar",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-133",
+    "description": "Car tires are getting damaged due to the massive road crater at Sector 4 Market. Live wire sparking nearby, posing an unsafe fire hazard.",
+    "categoryHint": "pothole",
+    "expectedCategory": "pothole",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Priya Sharma",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-134",
+    "description": "The streetlight near Lane 5 Residential Area is broken and not working. Blocked road and sewage flooding has created an emergency health hazard.",
+    "categoryHint": "streetlight",
+    "expectedCategory": "streetlight",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Amit Verma",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-135",
+    "description": "The water tap in the local park is leaking continuously. Unsafe structural condition showing immediate signs of collapse.",
+    "categoryHint": "water_supply",
+    "expectedCategory": "water_supply",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Sunita Patel",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-136",
+    "description": "The drainage system at the school crossroad is completely choked with plastic waste. This is an urgent emergency. Extreme hazard and immediate risk of injury!",
+    "categoryHint": "drainage",
+    "expectedCategory": "drainage",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Mohan Das",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-137",
+    "description": "Traffic congestion is severe at the crossroad of Metro Station Exit due to faulty signals. Highly dangerous situation with a high risk of collapse and fire accident.",
+    "categoryHint": "roads",
+    "expectedCategory": "roads",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Priya Sharma",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-138",
+    "description": "An open electrical transformer near Bus Stop junction is sparking. Live wire sparking nearby, posing an unsafe fire hazard.",
+    "categoryHint": "public_safety",
+    "expectedCategory": "public_safety",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Kavitha Reddy",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-139",
+    "description": "Some issues with the landscaping in the common garden of Sector 7 Block B. Blocked road and sewage flooding has created an emergency health hazard.",
+    "categoryHint": "others",
+    "expectedCategory": "others",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Rajesh Kumar",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-140",
+    "description": "Piles of refuse and litter are scattered around the entrance of High School road. The low hanging wires present a severe hazard.",
+    "categoryHint": "garbage",
+    "expectedCategory": "garbage",
+    "expectedSeverity": "high",
+    "expectedOfficer": "Rajesh Kumar",
+    "expectedSla": 24
+  },
+  {
+    "id": "TC-141",
+    "description": "There is a deep pothole in the middle of the municipal hospital lane, causing traffic delay. This is urgent and needs attention to prevent an accident.",
+    "categoryHint": "pothole",
+    "expectedCategory": "pothole",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Priya Sharma",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-142",
+    "description": "It is completely dark around Sector 10 Colony because the street light bulb is missing. The road is blocked and causing a major hazard.",
+    "categoryHint": "streetlight",
+    "expectedCategory": "streetlight",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Amit Verma",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-143",
+    "description": "We are facing a severe water shortage in Temple road for the past three days. The overflow is causing a dangerous situation.",
+    "categoryHint": "water_supply",
+    "expectedCategory": "water_supply",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Sunita Patel",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-144",
+    "description": "Sewage water is backing up into the houses near Railway Station approach. Emergency repair is requested for this critical issue.",
+    "categoryHint": "drainage",
+    "expectedCategory": "drainage",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Mohan Das",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-145",
+    "description": "Broken road divider near the community center is causing confusion. The low hanging wires present a severe hazard.",
+    "categoryHint": "roads",
+    "expectedCategory": "roads",
+    "expectedSeverity": "high",
+    "expectedOfficer": "Priya Sharma",
+    "expectedSla": 24
+  },
+  {
+    "id": "TC-146",
+    "description": "Criminal activity and vandalism reported at the park near the public playground. This is urgent and needs attention to prevent an accident.",
+    "categoryHint": "public_safety",
+    "expectedCategory": "public_safety",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Kavitha Reddy",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-147",
+    "description": "Graffiti and defacement on public property near Lane 12 crossing. The road is blocked and causing a major hazard.",
+    "categoryHint": "others",
+    "expectedCategory": "others",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Rajesh Kumar",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-148",
+    "description": "A pile of garbage is lying near the Sector 3 main road, attracting pests. A leaking pipe is causing a minor stink and smell.",
+    "categoryHint": "garbage",
+    "expectedCategory": "garbage",
+    "expectedSeverity": "medium",
+    "expectedOfficer": "Rajesh Kumar",
+    "expectedSla": 72
+  },
+  {
+    "id": "TC-149",
+    "description": "A large road damage crater has formed near Commercial street, causing vehicles to swerve. The missing cover is causing a pest problem.",
+    "categoryHint": "pothole",
+    "expectedCategory": "pothole",
+    "expectedSeverity": "medium",
+    "expectedOfficer": "Priya Sharma",
+    "expectedSla": 72
+  },
+  {
+    "id": "TC-150",
+    "description": "A streetlight lamp is blinking constantly near the botanical garden entrance, causing annoyance. We are facing a delay in addressing this broken issue.",
+    "categoryHint": "streetlight",
+    "expectedCategory": "streetlight",
+    "expectedSeverity": "medium",
+    "expectedOfficer": "Amit Verma",
+    "expectedSla": 72
+  },
+  {
+    "id": "TC-151",
+    "description": "The municipal water supply in Subway passage appears contaminated with mud. The damaged section is causing a delay and needs repair.",
+    "categoryHint": "water_supply",
+    "expectedCategory": "water_supply",
+    "expectedSeverity": "medium",
+    "expectedOfficer": "Sunita Patel",
+    "expectedSla": 72
+  },
+  {
+    "id": "TC-152",
+    "description": "An open sewer drain in Sector 9 Plaza is emitting a terrible stink. It has been broken and pending action for a week.",
+    "categoryHint": "drainage",
+    "expectedCategory": "drainage",
+    "expectedSeverity": "high",
+    "expectedOfficer": "Mohan Das",
+    "expectedSla": 24
+  },
+  {
+    "id": "TC-153",
+    "description": "Sidewalk tiles are missing near the sports complex entrance, forcing pedestrians onto the road. A leaking pipe is causing a minor stink and smell.",
+    "categoryHint": "roads",
+    "expectedCategory": "roads",
+    "expectedSeverity": "medium",
+    "expectedOfficer": "Priya Sharma",
+    "expectedSla": 72
+  },
+  {
+    "id": "TC-154",
+    "description": "Emergency situation near Market Road due to structural collapse. The missing cover is causing a pest problem.",
+    "categoryHint": "public_safety",
+    "expectedCategory": "public_safety",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Kavitha Reddy",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-155",
+    "description": "Stray cattle are sitting on the road near Lane 2 intersection, slowing traffic. We are facing a delay in addressing this broken issue.",
+    "categoryHint": "others",
+    "expectedCategory": "others",
+    "expectedSeverity": "medium",
+    "expectedOfficer": "Rajesh Kumar",
+    "expectedSla": 72
+  },
+  {
+    "id": "TC-156",
+    "description": "The trash bin in Main Street is overflowing and needs sweeping and cleaning. It's a minor issue that needs routine maintenance.",
+    "categoryHint": "garbage",
+    "expectedCategory": "garbage",
+    "expectedSeverity": "high",
+    "expectedOfficer": "Rajesh Kumar",
+    "expectedSla": 24
+  },
+  {
+    "id": "TC-157",
+    "description": "The road surface near Sector 4 Market is extremely uneven with multiple depressions. Please schedule a routine cleaning at your convenience.",
+    "categoryHint": "pothole",
+    "expectedCategory": "pothole",
+    "expectedSeverity": "low",
+    "expectedOfficer": "Priya Sharma",
+    "expectedSla": 168
+  },
+  {
+    "id": "TC-158",
+    "description": "The illumination at the junction of Lane 5 Residential Area is poor due to damaged lights. A simple check is required for this case.",
+    "categoryHint": "streetlight",
+    "expectedCategory": "streetlight",
+    "expectedSeverity": "medium",
+    "expectedOfficer": "Amit Verma",
+    "expectedSla": 72
+  },
+  {
+    "id": "TC-159",
+    "description": "Water is gushing out from a broken main supply line near the local park. Regular sweeping would resolve this issue.",
+    "categoryHint": "water_supply",
+    "expectedCategory": "water_supply",
+    "expectedSeverity": "medium",
+    "expectedOfficer": "Sunita Patel",
+    "expectedSla": 72
+  },
+  {
+    "id": "TC-160",
+    "description": "Wastewater flooding near the school crossroad has turned the street into a swamp. No immediate threat, but needs monitoring.",
+    "categoryHint": "drainage",
+    "expectedCategory": "drainage",
+    "expectedSeverity": "high",
+    "expectedOfficer": "Mohan Das",
+    "expectedSla": 24
+  },
+  {
+    "id": "TC-161",
+    "description": "Heavy vehicle encroachment on the pavement near Metro Station Exit is causing blockages. It's a minor issue that needs routine maintenance.",
+    "categoryHint": "roads",
+    "expectedCategory": "roads",
+    "expectedSeverity": "low",
+    "expectedOfficer": "Priya Sharma",
+    "expectedSla": 168
+  },
+  {
+    "id": "TC-162",
+    "description": "A dangerous sparking electrical box near Bus Stop junction represents a fire hazard. Please schedule a routine cleaning at your convenience.",
+    "categoryHint": "public_safety",
+    "expectedCategory": "public_safety",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Kavitha Reddy",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-163",
+    "description": "Unauthorised posters are pasted all over the walls of Sector 7 Block B. A simple check is required for this case.",
+    "categoryHint": "others",
+    "expectedCategory": "others",
+    "expectedSeverity": "low",
+    "expectedOfficer": "Rajesh Kumar",
+    "expectedSla": 168
+  },
+  {
+    "id": "TC-164",
+    "description": "People are dumping waste on the side of High School road, creating a dirty environment. Blocked road and sewage flooding has created an emergency health hazard.",
+    "categoryHint": "garbage",
+    "expectedCategory": "garbage",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Rajesh Kumar",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-165",
+    "description": "A dangerous pit has opened up on the municipal hospital lane after the heavy rain. Unsafe structural condition showing immediate signs of collapse.",
+    "categoryHint": "pothole",
+    "expectedCategory": "pothole",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Priya Sharma",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-166",
+    "description": "The public street light pole near Sector 10 Colony has no bulb. This is an urgent emergency. Extreme hazard and immediate risk of injury!",
+    "categoryHint": "streetlight",
+    "expectedCategory": "streetlight",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Amit Verma",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-167",
+    "description": "Water contamination reported in the storage tanks at Temple road. Highly dangerous situation with a high risk of collapse and fire accident.",
+    "categoryHint": "water_supply",
+    "expectedCategory": "water_supply",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Sunita Patel",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-168",
+    "description": "Overflowing drainage water is flooding the basement around Railway Station approach. Live wire sparking nearby, posing an unsafe fire hazard.",
+    "categoryHint": "drainage",
+    "expectedCategory": "drainage",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Mohan Das",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-169",
+    "description": "The lane divider paint has faded and traffic signals are blinking yellow on the community center. Blocked road and sewage flooding has created an emergency health hazard.",
+    "categoryHint": "roads",
+    "expectedCategory": "roads",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Priya Sharma",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-170",
+    "description": "An unsafe building wall shows signs of immediate collapse near the public playground. Unsafe structural condition showing immediate signs of collapse.",
+    "categoryHint": "public_safety",
+    "expectedCategory": "public_safety",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Kavitha Reddy",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-171",
+    "description": "Local park benches are broken in Lane 12 crossing, needs repair. This is an urgent emergency. Extreme hazard and immediate risk of injury!",
+    "categoryHint": "others",
+    "expectedCategory": "others",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Rajesh Kumar",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-172",
+    "description": "Litter is scattered all over Sector 3 main road, causing a foul smell. The road is blocked and causing a major hazard.",
+    "categoryHint": "garbage",
+    "expectedCategory": "garbage",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Rajesh Kumar",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-173",
+    "description": "Drivers are complaining about the broken road and crater on Commercial street. The overflow is causing a dangerous situation.",
+    "categoryHint": "pothole",
+    "expectedCategory": "pothole",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Priya Sharma",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-174",
+    "description": "No functioning streetlight at the botanical garden entrance, making it unsafe at night. Emergency repair is requested for this critical issue.",
+    "categoryHint": "streetlight",
+    "expectedCategory": "streetlight",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Amit Verma",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-175",
+    "description": "No water pressure in the municipal connection of Subway passage. The low hanging wires present a severe hazard.",
+    "categoryHint": "water_supply",
+    "expectedCategory": "water_supply",
+    "expectedSeverity": "high",
+    "expectedOfficer": "Sunita Patel",
+    "expectedSla": 24
+  },
+  {
+    "id": "TC-176",
+    "description": "Raw sewage is overflowing from the sewer line near Sector 9 Plaza. This is urgent and needs attention to prevent an accident.",
+    "categoryHint": "drainage",
+    "expectedCategory": "drainage",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Mohan Das",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-177",
+    "description": "Illegal encroachment by shopkeepers on the footpath has blocked pedestrian movement on the sports complex entrance. The road is blocked and causing a major hazard.",
+    "categoryHint": "roads",
+    "expectedCategory": "roads",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Priya Sharma",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-178",
+    "description": "A live wire is hanging low from the electrical post over Market Road. The overflow is causing a dangerous situation.",
+    "categoryHint": "public_safety",
+    "expectedCategory": "public_safety",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Kavitha Reddy",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-179",
+    "description": "Noise pollution from loudspeakers near Lane 2 intersection late at night. Emergency repair is requested for this critical issue.",
+    "categoryHint": "others",
+    "expectedCategory": "others",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Rajesh Kumar",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-180",
+    "description": "Uncleaned plastic dump near Main Street is causing a nuisance. We are facing a delay in addressing this broken issue.",
+    "categoryHint": "garbage",
+    "expectedCategory": "garbage",
+    "expectedSeverity": "medium",
+    "expectedOfficer": "Rajesh Kumar",
+    "expectedSla": 72
+  },
+  {
+    "id": "TC-181",
+    "description": "Deep road depression near Sector 4 Market is hazardous for motorbikes. The damaged section is causing a delay and needs repair.",
+    "categoryHint": "pothole",
+    "expectedCategory": "pothole",
+    "expectedSeverity": "high",
+    "expectedOfficer": "Priya Sharma",
+    "expectedSla": 24
+  },
+  {
+    "id": "TC-182",
+    "description": "Multiple street lamps are burnt out along the footpath of Lane 5 Residential Area. It has been broken and pending action for a week.",
+    "categoryHint": "streetlight",
+    "expectedCategory": "streetlight",
+    "expectedSeverity": "medium",
+    "expectedOfficer": "Amit Verma",
+    "expectedSla": 72
+  },
+  {
+    "id": "TC-183",
+    "description": "There is a major water pipeline leakage near the local park, wasting clean drinking water. A leaking pipe is causing a minor stink and smell.",
+    "categoryHint": "water_supply",
+    "expectedCategory": "water_supply",
+    "expectedSeverity": "medium",
+    "expectedOfficer": "Sunita Patel",
+    "expectedSla": 72
+  },
+  {
+    "id": "TC-184",
+    "description": "A blocked drain is causing waterlogging and flooding on the school crossroad. The missing cover is causing a pest problem.",
+    "categoryHint": "drainage",
+    "expectedCategory": "drainage",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Mohan Das",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-185",
+    "description": "The pavement tiles near Metro Station Exit are broken and loose. We are facing a delay in addressing this broken issue.",
+    "categoryHint": "roads",
+    "expectedCategory": "roads",
+    "expectedSeverity": "medium",
+    "expectedOfficer": "Priya Sharma",
+    "expectedSla": 72
+  },
+  {
+    "id": "TC-186",
+    "description": "There is a high risk of accident near Bus Stop junction due to loose overhead cables. The damaged section is causing a delay and needs repair.",
+    "categoryHint": "public_safety",
+    "expectedCategory": "public_safety",
+    "expectedSeverity": "high",
+    "expectedOfficer": "Kavitha Reddy",
+    "expectedSla": 24
+  },
+  {
+    "id": "TC-187",
+    "description": "Stray dogs are roaming in packs and barking around Sector 7 Block B. It has been broken and pending action for a week.",
+    "categoryHint": "others",
+    "expectedCategory": "others",
+    "expectedSeverity": "medium",
+    "expectedOfficer": "Rajesh Kumar",
+    "expectedSla": 72
+  },
+  {
+    "id": "TC-188",
+    "description": "The garbage collection truck did not visit High School road this week. A simple check is required for this case.",
+    "categoryHint": "garbage",
+    "expectedCategory": "garbage",
+    "expectedSeverity": "low",
+    "expectedOfficer": "Rajesh Kumar",
+    "expectedSla": 168
+  },
+  {
+    "id": "TC-189",
+    "description": "Car tires are getting damaged due to the massive road crater at the municipal hospital lane. Regular sweeping would resolve this issue.",
+    "categoryHint": "pothole",
+    "expectedCategory": "pothole",
+    "expectedSeverity": "medium",
+    "expectedOfficer": "Priya Sharma",
+    "expectedSla": 72
+  },
+  {
+    "id": "TC-190",
+    "description": "The streetlight near Sector 10 Colony is broken and not working. No immediate threat, but needs monitoring.",
+    "categoryHint": "streetlight",
+    "expectedCategory": "streetlight",
+    "expectedSeverity": "medium",
+    "expectedOfficer": "Amit Verma",
+    "expectedSla": 72
+  },
+  {
+    "id": "TC-191",
+    "description": "The water tap in Temple road is leaking continuously. It's a minor issue that needs routine maintenance.",
+    "categoryHint": "water_supply",
+    "expectedCategory": "water_supply",
+    "expectedSeverity": "medium",
+    "expectedOfficer": "Sunita Patel",
+    "expectedSla": 72
+  },
+  {
+    "id": "TC-192",
+    "description": "The drainage system at Railway Station approach is completely choked with plastic waste. Please schedule a routine cleaning at your convenience.",
+    "categoryHint": "drainage",
+    "expectedCategory": "drainage",
+    "expectedSeverity": "low",
+    "expectedOfficer": "Mohan Das",
+    "expectedSla": 168
+  },
+  {
+    "id": "TC-193",
+    "description": "Traffic congestion is severe at the crossroad of the community center due to faulty signals. A simple check is required for this case.",
+    "categoryHint": "roads",
+    "expectedCategory": "roads",
+    "expectedSeverity": "low",
+    "expectedOfficer": "Priya Sharma",
+    "expectedSla": 168
+  },
+  {
+    "id": "TC-194",
+    "description": "An open electrical transformer near the public playground is sparking. Regular sweeping would resolve this issue.",
+    "categoryHint": "public_safety",
+    "expectedCategory": "public_safety",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Kavitha Reddy",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-195",
+    "description": "Some issues with the landscaping in the common garden of Lane 12 crossing. No immediate threat, but needs monitoring.",
+    "categoryHint": "others",
+    "expectedCategory": "others",
+    "expectedSeverity": "low",
+    "expectedOfficer": "Rajesh Kumar",
+    "expectedSla": 168
+  },
+  {
+    "id": "TC-196",
+    "description": "Piles of refuse and litter are scattered around the entrance of Sector 3 main road. This is an urgent emergency. Extreme hazard and immediate risk of injury!",
+    "categoryHint": "garbage",
+    "expectedCategory": "garbage",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Rajesh Kumar",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-197",
+    "description": "There is a deep pothole in the middle of Commercial street, causing traffic delay. Highly dangerous situation with a high risk of collapse and fire accident.",
+    "categoryHint": "pothole",
+    "expectedCategory": "pothole",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Priya Sharma",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-198",
+    "description": "It is completely dark around the botanical garden entrance because the street light bulb is missing. Live wire sparking nearby, posing an unsafe fire hazard.",
+    "categoryHint": "streetlight",
+    "expectedCategory": "streetlight",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Amit Verma",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-199",
+    "description": "We are facing a severe water shortage in Subway passage for the past three days. Blocked road and sewage flooding has created an emergency health hazard.",
+    "categoryHint": "water_supply",
+    "expectedCategory": "water_supply",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Sunita Patel",
+    "expectedSla": 2
+  },
+  {
+    "id": "TC-200",
+    "description": "Sewage water is backing up into the houses near Sector 9 Plaza. Unsafe structural condition showing immediate signs of collapse.",
+    "categoryHint": "drainage",
+    "expectedCategory": "drainage",
+    "expectedSeverity": "critical",
+    "expectedOfficer": "Mohan Das",
+    "expectedSla": 2
+  }
+]

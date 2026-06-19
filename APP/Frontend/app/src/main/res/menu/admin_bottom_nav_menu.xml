@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/adminOverviewFragment"
+        android:icon="@drawable/ic_3d_admin"
+        android:title="Overview" />
+    <item
+        android:id="@+id/adminComplaintsFragment"
+        android:icon="@drawable/ic_3d_complaints"
+        android:title="Complaints" />
+    <item
+        android:id="@+id/adminMapViewFragment"
+        android:icon="@drawable/ic_3d_map_pin"
+        android:title="Map View" />
+    <item
+        android:id="@+id/adminUsersFragment"
+        android:icon="@drawable/ic_3d_profile"
+        android:title="Users" />
+    <item
+        android:id="@+id/adminSettingsFragment"
+        android:icon="@drawable/ic_3d_privacy"
+        android:title="Settings" />
+</menu>

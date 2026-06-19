@@ -1,0 +1,14 @@
+{
+  "name": "backend-selenium-tests",
+  "version": "1.0.0",
+  "description": "Selenium API and Admin flow integration tests for PublicEye Backend",
+  "main": "tests/login.test.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "node tests/login.test.js"
+  },
+  "devDependencies": {
+    "selenium-webdriver": "^4.22.0",
+    "xlsx": "^0.18.5"
+  }
+}

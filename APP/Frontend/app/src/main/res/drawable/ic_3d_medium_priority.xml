@@ -1,0 +1,42 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="80dp"
+    android:height="80dp"
+    android:viewportWidth="80"
+    android:viewportHeight="80">
+
+    <!-- Elevation Shadow -->
+    <path
+        android:pathData="M25,68 Q40,75 55,68"
+        android:strokeWidth="6"
+        android:strokeColor="#1A000000"
+        android:strokeLineCap="round" />
+
+    <!-- Triangle Body -->
+    <path
+        android:pathData="M40,15 L70,65 H10 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="40"
+                android:startY="15"
+                android:endX="40"
+                android:endY="65"
+                android:type="linear">
+                <item android:color="#FFB74D" android:offset="0.0" />
+                <item android:color="#FF9800" android:offset="0.5" />
+                <item android:color="#E65100" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Exclamation Mark -->
+    <path
+        android:pathData="M38,35h4v15h-4z M38,55h4v4h-4z"
+        android:fillColor="#0A1628" />
+
+    <!-- Highlight -->
+    <path
+        android:pathData="M35,25 L40,20 L45,25 L40,55 Z"
+        android:fillColor="#33FFFFFF" />
+
+</vector>

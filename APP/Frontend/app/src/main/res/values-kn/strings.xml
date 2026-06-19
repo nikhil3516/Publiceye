@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">PublicEye</string>
+    <string name="nav_home">ಮುಖಪುಟ</string>
+    <string name="nav_complaints">ದೂರುಗಳು</string>
+    <string name="nav_notifications">ಅಧಿಸೂಚನೆಗಳು</string>
+    <string name="nav_rewards">ಬಹುಮಾನಗಳು</string>
+    <string name="nav_profile">ಪ್ರೊಫೈಲ್</string>
+    <string name="report_issue">ಸಮಸ್ಯೆ ವರದಿ ಮಾಡಿ</string>
+    <string name="report_issue_desc">ನಗರಸಭೆ ಸಮಸ್ಯೆಗಳನ್ನು ವರದಿ ಮಾಡಿ</string>
+    <string name="citizen_feedback">ನಾಗರಿಕರ ಪ್ರತಿಕ್ರಿಯೆ</string>
+    <string name="find_facilities">ಸೌಲಭ್ಯಗಳನ್ನು ಹುಡುಕಿ</string>
+    <string name="rate_services">ಸೇವೆಗಳನ್ನು ರೇಟ್ ಮಾಡಿ</string>
+    <string name="live_tracking">ಲೈವ್ ಟ್ರ್ಯಾಕಿಂಗ್</string>
+    <string name="community_updates">ಸಮುದಾಯ ಅಪ್‌ಡೇಟ್ಸ್</string>
+    <string name="select_language_en">ಭಾಷೆ ಆಯ್ಕೆಮಾಡಿ (KN)</string>
+    <string name="active_citizen">ಸಕ್ರಿಯ ನಾಗರಿಕ</string>
+    <string name="edit_profile">ಪ್ರೊಫೈಲ್ ಸಂಪಾದಿಸಿ</string>
+    <string name="save_changes">ಬದಲಾವಣೆಗಳನ್ನು ಉಳಿಸಿ</string>
+    <string name="name_empty_error">ಹೆಸರು ಖಾಲಿ ಇರಬಾರದು</string>
+    <string name="profile_updated">ಪ್ರೊಫೈಲ್ ಯಶಸ್ವಿಯಾಗಿ ನವೀಕರಿಸಲಾಗಿದೆ</string>
+    <string name="whats_new">ಹೊಸದೇನಿದೆ</string>
+    <string name="whats_new_content">v1.0.1 ಅಪ್‌ಡೇಟ್:\n- ಬಹು-ಭಾಷಾ ಬೆಂಬಲವನ್ನು ಸೇರಿಸಲಾಗಿದೆ\n- ಪ್ರೊಫೈಲ್ ಎಡಿಟಿಂಗ್ ಸುಧಾರಿಸಲಾಗಿದೆ\n- ಸ್ಥಳ ಪಡೆಯುವ ಸಮಸ್ಯೆಗಳನ್ನು ಸರಿಪಡಿಸಲಾಗಿದೆ\n- ಬಗ್ ಪರಿಹರಿಸಲಾಗಿದೆ ಮತ್ತು ಕಾರ್ಯಕ್ಷಮತೆ ಸುಧಾರಿಸಲಾಗಿದೆ</string>
+    <string name="close">ಮುಚ್ಚಿ</string>
+    <string name="profile_photo">ಪ್ರೊಫೈಲ್ ಫೋಟೋ</string>
+    <string name="choose_photo_option">ನಿಮ್ಮ ಪ್ರೊಫೈಲ್ ಫೋಟೋವನ್ನು ನವೀಕರಿಸಲು ಒಂದು ಆಯ್ಕೆಯನ್ನು ಆರಿಸಿ.</string>
+    <string name="take_photo">ಫೋಟೋ ತೆಗೆಯಿರಿ</string>
+    <string name="upload_image">ಚಿತ್ರವನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ</string>
+    <string name="cancel">ರದ್ದುಮಾಡಿ</string>
+    <string name="log_out">ಲಾಗ್ ಔಟ್</string>
+    <string name="camera_denied">ಕ್ಯಾಮೆರಾ ಅನುಮತಿ ನಿರಾಕರಿಸಲಾಗಿದೆ</string>
+    <string name="status_resolved">ಪರಿಹರಿಸಲಾಗಿದೆ</string>
+</resources>

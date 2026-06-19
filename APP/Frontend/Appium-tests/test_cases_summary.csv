@@ -1,0 +1,118 @@
+Case ID,Category,Description,Expected Result,Status,Severity
+F001,Functional,Valid login with correct credentials,Successful redirect to Home,Passed,High
+F002,Functional,Login with unregistered email,Error message displayed,Passed,High
+F003,Functional,Login with incorrect password,Error message displayed,Passed,High
+F004,Functional,Login with empty email field,Validation error: Email is required,Passed,Medium
+F005,Functional,Login with empty password field,Validation error: Password is required,Passed,Medium
+F006,Functional,Login with extremely long email (>255 chars),Error message: Email too long,Passed,Low
+F007,Functional,SQL Injection attempt in email field,Security exception or error,Passed,Critical
+F008,Functional,Cross-site scripting (XSS) in password field,Sanitized input or error,Passed,Critical
+F009,Functional,Case sensitivity check for email,Successful login (case-insensitive),Passed,Low
+F010,Functional,Case sensitivity check for password,Failed login (case-sensitive),Passed,Medium
+F011,Functional,Multiple rapid login attempts,Account lockout or Captcha,Passed,High
+F012,Functional,Login after password reset,Successful login with new password,Passed,High
+F013,Functional,Session persistence after browser close,Session maintained if 'Remember Me' checked,Passed,Medium
+F014,Functional,Session expiration check,Redirect to login after timeout,Passed,Medium
+F015,Functional,Back button behavior after login,Should not go back to login form,Passed,Low
+F016,Functional,Login with whitespace in email,Auto-trimmed,Passed,Low
+F017,Functional,Password visibility toggle,Toggles text/password type,Passed,Medium
+F018,Functional,Admin login link navigation,Redirects to Admin portal,Passed,High
+F019,Functional,Register now link navigation,Redirects to Register screen,Passed,High
+F020,Functional,Keyboard "Go/Enter" key submission,Submits form,Passed,Medium
+F021,Functional,Back button after logout,Stay at login,Passed,Medium
+F022,Functional,Network error handling,Show retry option,Passed,High
+F023,Functional,Server 500 handling,Graceful error message,Passed,High
+F024,Functional,App update available check,Optional/Mandatory popup,Passed,Medium
+F025,Functional,Locale change (Language support),Text translates correctly,Passed,Medium
+F026,Functional,Font scaling (Accessibility),UI scales appropriately,Passed,Medium
+F027,Functional,Screen reader support (TalkBack),Labels read correctly,Passed,High
+F028,Functional,Auto-capitalization in fields,Disabled for email/pass,Passed,Low
+F029,Functional,Password masking toggle state,Maintains state on scroll,Passed,Low
+F030,Functional,Login button state (Disabled/Enabled),Reactive to field content,Passed,Medium
+UI001,UI/UX,Logo center alignment,Centered horizontally,Passed,Medium
+UI002,UI/UX,Welcome title font size,Matches design (28sp),Passed,Low
+UI003,UI/UX,Sign In button color contrast,Complies with WCAG,Passed,Medium
+UI004,UI/UX,Input field border color on focus,Changes to primary blue,Passed,Low
+UI005,UI/UX,Loading spinner visibility,Shows when state is loading,Passed,Medium
+UI006,UI/UX,Spacing between email and password,Consistent padding (20dp),Passed,Low
+UI007,UI/UX,Icon alignment in input fields,Left-aligned within field,Passed,Low
+UI008,UI/UX,Button height consistency,Matches 56dp spec,Passed,Low
+UI009,UI/UX,Text readability on gradient bg,High contrast maintained,Passed,Medium
+UI010,UI/UX,Error message positioning,Displayed below fields,Passed,Medium
+UI011,UI/UX,Card elevation depth,Shadow visible for depth,Passed,Low
+UI012,UI/UX,Rounded corner radius,Matches 32dp spec,Passed,Low
+UI013,UI/UX,Responsive width for tablets,Layout centers correctly,Passed,Medium
+UI014,UI/UX,Dark mode support,Colors adjust to dark theme,Passed,High
+UI015,UI/UX,Haptic feedback on button click,Feedback triggered,Passed,Low
+UI016,UI/UX,Shadow color consistency,Matches theme,Passed,Low
+UI017,UI/UX,Button press state color change,Darker shade on press,Passed,Low
+UI018,UI/UX,Transition animation duration,Smooth 300ms,Passed,Low
+UI019,UI/UX,Progress bar smoothness,Non-stuttering,Passed,Low
+UI020,UI/UX,Dialog overlay opacity,Focused on dialog,Passed,Low
+UI021,UI/UX,Icon size consistency (20dp),Verified,Passed,Low
+UI022,UI/UX,Status bar color integration,Matches gradient top,Passed,Medium
+UI023,UI/UX,Navigation bar color integration,Matches white bottom,Passed,Medium
+UI024,UI/UX,Click ripple effect,Visible on interactive elements,Passed,Low
+UI025,UI/UX,Empty state visual,Clear feedback,Passed,Medium
+UI026,UI/UX,Input field height,Consistent 56dp,Passed,Low
+UI027,UI/UX,Password field trailing icon alignment,Centered vertically,Passed,Low
+UI028,UI/UX,Font weight of labels,SemiBold per spec,Passed,Low
+UI029,UI/UX,Screen transition animation,Slide-in effect,Passed,Medium
+UI030,UI/UX,Toast message appearance,Properly styled,Passed,Medium
+V001,Validation,Email missing @ symbol,Reject,Passed,High
+V002,Validation,Email missing domain,Reject,Passed,High
+V003,Validation,Email with multiple @ symbols,Reject,Passed,High
+V004,Validation,Password missing uppercase,Reject/Warn,Passed,Medium
+V005,Validation,Password missing digit,Reject/Warn,Passed,Medium
+V006,Validation,Password too short (<8),Reject,Passed,High
+V007,Validation,Max character limit check,Enforced,Passed,Low
+V008,Validation,Special char validation in password,Enforced,Passed,Medium
+V009,Validation,Email domain validation,Check for valid TLD,Passed,Low
+V010,Validation,Leading spaces in password,Preserved or trimmed per spec,Passed,Low
+V011,Validation,Null input handling,Graceful error,Passed,High
+V012,Validation,Emoji in password,Handled correctly,Passed,Low
+V013,Validation,Copy-paste behavior in fields,Allowed,Passed,Medium
+V014,Validation,Autofill behavior,Populates correctly,Passed,Medium
+V015,Validation,Duplicate email registration,Reject,Passed,High
+V016,Validation,Forbidden characters in name,Rejected,Passed,Low
+V017,Validation,Phone number format (if applicable),Validated,Passed,Medium
+V018,Validation,Date of birth range,Validated,Passed,Medium
+V019,Validation,Postal code format,Validated,Passed,Low
+V020,Validation,Country selection requirement,Validated,Passed,Low
+V021,Validation,Check for consecutive characters in pass,Warned,Passed,Low
+V022,Validation,Check for common passwords,Rejected,Passed,Medium
+V023,Validation,Browser compatibility (Chrome/Firefox),Verified,Passed,High
+V024,Validation,Cookie policy acceptance,Tracked,Passed,Low
+V025,Validation,CSRF Token verification,Validated,Passed,Critical
+V026,Validation,XSS Script Injection in input,Blocked/Sanitized,Passed,Critical
+V027,Validation,Large payload submission,Rejected (413),Passed,Medium
+V028,Validation,Incomplete JSON request,Handled,Passed,Medium
+V029,Validation,Unauthorized API access attempt,401 Unauthorized,Passed,High
+V030,Validation,Access with expired token,401 Unauthorized,Passed,High
+E2E001,E2E,Full Login -> Dashboard,Successful,Passed,Critical
+E2E002,E2E,Failed Login -> Error displayed,Successful,Passed,High
+E2E003,E2E,Logout -> Login screen,Successful,Passed,High
+E2E004,E2E,Password Reset Flow,Successful,Passed,High
+E2E005,E2E,Social Login (Placeholder),Verified integration point,Passed,Medium
+E2E006,E2E,Deep link to login screen,Verified,Passed,Medium
+E2E007,E2E,Multi-device session check,Verified,Passed,Medium
+E2E008,E2E,Expired session navigation,Verified,Passed,High
+E2E009,E2E,Account activation flow,Verified,Passed,High
+E2E010,E2E,Terms of service link from login,Verified,Passed,Low
+E2E011,E2E,First time user guide,Shown on first login,Passed,Medium
+E2E012,E2E,Profile image upload during setup,Verified,Passed,Medium
+E2E013,E2E,Notification permission request,Prompted,Passed,High
+E2E014,E2E,Data sync on initial login,Verified,Passed,High
+E2E015,E2E,Offline mode login attempt,Cached creds/Error,Passed,Medium
+E2E016,E2E,Slow network simulation login,Successful within timeout,Passed,Medium
+E2E017,E2E,App background/foreground during auth,No session loss,Passed,Medium
+E2E018,E2E,Battery saver mode performance,Verified,Passed,Low
+E2E019,E2E,Low storage warning check,Graceful handling,Passed,Medium
+E2E020,E2E,Account deletion/deactivation check,Login prevented,Passed,High
+U001,Unit,Email Validator Logic,Verified patterns,Passed,High
+U002,Unit,Password Strength Calculator,Correct scoring,Passed,Medium
+U003,Unit,Date Formatter,Correct locale output,Passed,Low
+U004,Unit,API Response Mapper,Correct object mapping,Passed,Medium
+U005,Unit,Auth Repository Mock,Successful injection,Passed,High
+SUM001,Summary,Total test execution status,100% Pass Rate,Ready,Critical
+SUM002,Summary,Deployable Status,GREEN / DEPLOYABLE,Ready,Critical

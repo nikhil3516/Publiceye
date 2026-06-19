@@ -1,0 +1,23 @@
+# Global ignores for Node.js / web projects
+**/node_modules/
+**/dist/
+**/dist-ssr/
+**/*.local
+**/*.log
+
+# Global ignores for Java / Gradle / Android projects
+**/*.iml
+**/.gradle/
+**/local.properties
+**/google-services.json
+**/.idea/
+**/.vscode/
+**/build/
+**/captures/
+**/.externalNativeBuild/
+**/.cxx/
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+**/.git_backup/

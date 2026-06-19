@@ -1,0 +1,48 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="400dp"
+    android:height="300dp"
+    android:viewportWidth="400"
+    android:viewportHeight="300">
+
+    <!-- Background Card/Canvas -->
+    <path
+        android:fillColor="#C0D9F5"
+        android:pathData="M24,20h352c13,0 24,10 24,24v212c0,13 -10,24 -24,24H24c-13,0 -24,-10 -24,-24V44c0,-13 10,-24 24,-24z" />
+
+    <!-- Clouds -->
+    <path android:fillColor="#E1F5FE" android:pathData="M320,60a20,20 0,0 1,40 0a20,20 0,0 1,-40 0" />
+    <path android:fillColor="#E1F5FE" android:pathData="M280,75a25,15 0,0 1,50 0a25,15 0,0 1,-50 0" />
+    <path android:fillColor="#E1F5FE" android:pathData="M80,80a30,20 0,0 1,60 0a30,20 0,0 1,-60 0" />
+
+    <!-- City Outline Style Buildings -->
+    <!-- Building 1 -->
+    <path android:fillColor="#FFFFFF" android:pathData="M110,240V90h60v150H110z" />
+    <path android:strokeColor="#90CAF9" android:strokeWidth="2" android:pathData="M110,90h60M110,120h60M110,150h60M110,180h60M110,210h60M110,90v150M170,90v150M140,90v150" />
+
+    <!-- Building 2 -->
+    <path android:fillColor="#FFFFFF" android:pathData="M190,240V120h60v120H190z" />
+    <path android:strokeColor="#90CAF9" android:strokeWidth="2" android:pathData="M190,120h60M190,150h60M190,180h60M190,210h60M190,120v120M250,120v120M220,120v120" />
+
+    <!-- Building 3 (Cyan highlight) -->
+    <path android:fillColor="#E0F7FA" android:pathData="M280,240V105h60v135H280z" />
+    <path android:strokeColor="#26C6DA" android:strokeWidth="3" android:pathData="M280,105h60M280,135h60M280,165h60M280,195h60M280,105v135M340,105v135M310,105v135" />
+
+    <!-- Building 4 -->
+    <path android:fillColor="#FFFFFF" android:pathData="M40,240V140h50v100H40z" />
+    <path android:strokeColor="#90CAF9" android:strokeWidth="2" android:pathData="M40,140h50M40,170h50M40,200h50M40,140v100M90,140v100M65,140v100" />
+
+    <!-- Ground / Base with dots -->
+    <path android:fillColor="#E0E0E0" android:pathData="M0,240h400v40H0z" />
+
+    <!-- Blue accent circles -->
+    <path android:fillColor="#1E88E5" android:pathData="M70,260m-15,0a15,15 0,1 1,30 0a15,15 0,1 1,-30 0" />
+    <path android:fillColor="#1E88E5" android:pathData="M70,260m-6,0a6,6 0,1 1,12 0a6,6 0,1 1,-12 0" />
+
+    <path android:fillColor="#1E88E5" android:pathData="M330,260m-15,0a15,15 0,1 1,30 0a15,15 0,1 1,-30 0" />
+    <path android:fillColor="#1E88E5" android:pathData="M330,260m-6,0a6,6 0,1 1,12 0a6,6 0,1 1,-12 0" />
+
+    <!-- Vertical indicators -->
+    <path android:fillColor="#455A64" android:pathData="M150,250h10v20h-10z M200,255h10v10h-10z M250,250h10v20h-10z" />
+
+</vector>

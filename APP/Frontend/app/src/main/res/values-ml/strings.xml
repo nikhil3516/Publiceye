@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">PublicEye</string>
+    <string name="nav_home">ഹോം</string>
+    <string name="nav_complaints">പരാതികൾ</string>
+    <string name="nav_notifications">അറിയിപ്പുകൾ</string>
+    <string name="nav_rewards">സമ്മാനങ്ങൾ</string>
+    <string name="nav_profile">പ്രൊഫൈൽ</string>
+    <string name="report_issue">പരാതി നൽകുക</string>
+    <string name="report_issue_desc">നഗരസഭാ പ്രശ്നങ്ങൾ അറിയിക്കുക</string>
+    <string name="citizen_feedback">അഭിപ്രായം അറിയിക്കുക</string>
+    <string name="find_facilities">സൗകര്യങ്ങൾ കണ്ടെത്തുക</string>
+    <string name="rate_services">സേവനങ്ങളെ വിലയിരുത്തുക</string>
+    <string name="live_tracking">ലൈവ് ട്രാക്കിംഗ്</string>
+    <string name="community_updates">കമ്മ്യൂണിറ്റി അപ്‌ഡേറ്റ്സ്</string>
+    <string name="select_language_en">ഭാഷ തിരഞ്ഞെടുക്കുക (ML)</string>
+    <string name="active_citizen">സജീവ പൗരൻ</string>
+    <string name="edit_profile">പ്രൊഫൈൽ തിരുത്തുക</string>
+    <string name="save_changes">മാറ്റങ്ങൾ സംരക്ഷിക്കുക</string>
+    <string name="name_empty_error">പേര് ഒഴിവാക്കാൻ കഴിയില്ല</string>
+    <string name="profile_updated">പ്രൊഫൈൽ വിജയകരമായി അപ്‌ഡേറ്റ് ചെയ്തു</string>
+    <string name="whats_new">പുതിയ കാര്യങ്ങൾ</string>
+    <string name="whats_new_content">v1.0.1 അപ്‌ഡേറ്റ്:\n- മൾട്ടി-ലാംഗ്വേജ് സപ്പോർട്ട് ചേർത്തു\n- പ്രൊഫൈൽ എഡിറ്റിംഗ് മെച്ചപ്പെടുത്തി\n- ലൊക്കേഷൻ പ്രശ്നങ്ങൾ പരിഹരിച്ചു\n- ബഗ് പരിഹാരങ്ങളും പ്രകടന മെച്ചപ്പെടുത്തലുകളും</string>
+    <string name="close">അടയ്ക്കുക</string>
+    <string name="profile_photo">പ്രൊഫൈൽ ഫോട്ടോ</string>
+    <string name="choose_photo_option">പ്രൊഫൈൽ ഫോട്ടോ അപ്‌ഡേറ്റ് ചെയ്യാൻ ഒരു ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക.</string>
+    <string name="take_photo">ഫോട്ടോ എടുക്കുക</string>
+    <string name="upload_image">ചിത്രം അപ്‌ലോഡ് ചെയ്യുക</string>
+    <string name="cancel">റദ്ദാക്കുക</string>
+    <string name="log_out">ലോഗ് ഔട്ട്</string>
+    <string name="camera_denied">ക്യാമറ അനുമതി നിഷേധിച്ചു</string>
+    <string name="status_resolved">പരിഹരിച്ചു</string>
+</resources>

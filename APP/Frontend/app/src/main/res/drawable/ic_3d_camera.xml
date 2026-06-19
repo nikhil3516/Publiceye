@@ -1,0 +1,49 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="80dp"
+    android:height="80dp"
+    android:viewportWidth="80"
+    android:viewportHeight="80">
+
+    <!-- Elevation Shadow -->
+    <path
+        android:pathData="M20,68h40v6h-40z"
+        android:fillColor="#1A000000" />
+
+    <!-- Camera Body -->
+    <path
+        android:pathData="M15,25h50a4,4 0,0 1,4 4v30a4,4 0,0 1,-4 4h-50a4,4 0,0 1,-4 -4v-30a4,4 0,0 1,4 -4z"
+        android:fillColor="#0A1628" />
+
+    <!-- Top Part -->
+    <path
+        android:pathData="M30,20h20v5h-20z"
+        android:fillColor="#0A1628" />
+
+    <!-- Teal Lens Ring -->
+    <path
+        android:pathData="M40,44m-12,0a12,12 0,1 1,24 0a12,12 0,1 1,-24 0"
+        android:strokeWidth="2"
+        android:strokeColor="#00BFA5" />
+
+    <!-- Lens Glass -->
+    <path
+        android:pathData="M40,44m-8,0a8,8 0,1 1,16 0a8,8 0,1 1,-16 0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:centerX="40"
+                android:centerY="44"
+                android:gradientRadius="8"
+                android:type="radial">
+                <item android:color="#004D40" android:offset="0.0" />
+                <item android:color="#0A1628" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Lens Glint -->
+    <path
+        android:pathData="M37,40a2,2 0,1 1,4 0a2,2 0,1 1,-4 0"
+        android:fillColor="#33FFFFFF" />
+
+</vector>

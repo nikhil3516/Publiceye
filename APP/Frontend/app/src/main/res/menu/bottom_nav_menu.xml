@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/ic_3d_home"
+        android:title="Home" />
+    <item
+        android:id="@+id/notificationsFragment"
+        android:icon="@drawable/ic_3d_notifications"
+        android:title="Notifications" />
+    <!-- Placeholder for FAB -->
+    <item
+        android:id="@+id/placeholder"
+        android:enabled="false"
+        android:title="" />
+    <item
+        android:id="@+id/complaintsFragment"
+        android:icon="@drawable/ic_3d_complaints"
+        android:title="Complaints" />
+    <item
+        android:id="@+id/profileFragment"
+        android:icon="@drawable/ic_3d_profile"
+        android:title="Profile" />
+</menu>

@@ -1,0 +1,46 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="80dp"
+    android:height="80dp"
+    android:viewportWidth="80"
+    android:viewportHeight="80">
+
+    <!-- Elevation Shadow -->
+    <path
+        android:pathData="M30,70 Q40,75 50,70"
+        android:strokeWidth="4"
+        android:strokeColor="#1A000000"
+        android:strokeLineCap="round" />
+
+    <!-- Leaf Body -->
+    <path
+        android:pathData="M40,20 Q60,20 60,45 Q60,65 40,65 Q20,65 20,45 Q20,20 40,20 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="40"
+                android:startY="20"
+                android:endX="40"
+                android:endY="65"
+                android:type="linear">
+                <item android:color="#66BB6A" android:offset="0.0" />
+                <item android:color="#4CAF50" android:offset="0.5" />
+                <item android:color="#2E7D32" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Leaf Vein -->
+    <path
+        android:pathData="M40,25 V60"
+        android:strokeWidth="2"
+        android:strokeColor="#1A000000"
+        android:strokeLineCap="round" />
+
+    <!-- Shimmer Highlight -->
+    <path
+        android:pathData="M30,30 Q40,25 45,35"
+        android:strokeWidth="2"
+        android:strokeColor="#4DFFFFFF"
+        android:strokeLineCap="round" />
+
+</vector>

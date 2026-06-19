@@ -1,0 +1,49 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="80dp"
+    android:height="80dp"
+    android:viewportWidth="80"
+    android:viewportHeight="80">
+
+    <!-- Elevation Shadow -->
+    <path
+        android:pathData="M30,70 Q40,75 50,70"
+        android:strokeWidth="6"
+        android:strokeColor="#1A000000"
+        android:strokeLineCap="round" />
+
+    <!-- Pin Body -->
+    <path
+        android:pathData="M40,15 Q20,15 20,40 Q20,60 40,75 Q60,60 60,40 Q60,15 40,15 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="40"
+                android:startY="15"
+                android:endX="40"
+                android:endY="75"
+                android:type="linear">
+                <item android:color="#42A5F5" android:offset="0.0" />
+                <item android:color="#1E88E5" android:offset="0.5" />
+                <item android:color="#1565C0" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- White Circle Center -->
+    <path
+        android:pathData="M40,40m-15,0a15,15 0,1 1,30 0a15,15 0,1 1,-30 0"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Building Icon Inside -->
+    <path
+        android:pathData="M35,35h10v12h-10z M32,35h2v12h-2z M46,35h2v12h-2z M30,47h20v2h-20z"
+        android:fillColor="#1565C0" />
+
+    <!-- Highlight -->
+    <path
+        android:pathData="M30,25 Q40,18 50,25"
+        android:strokeWidth="2"
+        android:strokeColor="#4DFFFFFF"
+        android:strokeLineCap="round" />
+
+</vector>

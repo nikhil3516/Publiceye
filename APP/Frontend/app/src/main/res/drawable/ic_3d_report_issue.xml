@@ -1,0 +1,58 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="80dp"
+    android:height="80dp"
+    android:viewportWidth="80"
+    android:viewportHeight="80">
+
+    <!-- Elevation Shadow -->
+    <path
+        android:pathData="M20,65 Q40,75 60,65"
+        android:strokeWidth="8"
+        android:strokeColor="#1A000000"
+        android:strokeLineCap="round" />
+
+    <!-- Cone Base -->
+    <path
+        android:pathData="M15,60 L65,60 L60,65 L20,65 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="40"
+                android:startY="60"
+                android:endX="40"
+                android:endY="65"
+                android:type="linear">
+                <item android:color="#E65100" android:offset="0.0" />
+                <item android:color="#BF360C" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Cone Body -->
+    <path
+        android:pathData="M40,15 L60,60 L20,60 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="40"
+                android:startY="15"
+                android:endX="40"
+                android:endY="60"
+                android:type="linear">
+                <item android:color="#FFB74D" android:offset="0.0" />
+                <item android:color="#FF6D00" android:offset="0.5" />
+                <item android:color="#E65100" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- White Stripe -->
+    <path
+        android:pathData="M33,30 L47,30 L51,40 L29,40 Z"
+        android:fillColor="#E0F2F1" />
+
+    <!-- Highlight -->
+    <path
+        android:pathData="M38,20 L40,20 L42,60 L35,60 Z"
+        android:fillColor="#33FFFFFF" />
+
+</vector>

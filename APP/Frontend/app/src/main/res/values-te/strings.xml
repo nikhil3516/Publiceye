@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">PublicEye</string>
+    <string name="nav_home">హోమ్</string>
+    <string name="nav_complaints">ఫిర్యాదులు</string>
+    <string name="nav_notifications">నోటిఫికేషన్లు</string>
+    <string name="nav_rewards">బహుమతులు</string>
+    <string name="nav_profile">ప్రొఫైల్</string>
+    <string name="report_issue">సమస్యను నివేదించండి</string>
+    <string name="report_issue_desc">మున్సిపల్ సమస్యలను నివేదించండి</string>
+    <string name="citizen_feedback">పౌరుల అభిప్రాయం</string>
+    <string name="find_facilities">సదుపాయాలను కనుగొనండి</string>
+    <string name="rate_services">సేవలను రేట్ చేయండి</string>
+    <string name="live_tracking">లైవ్ ట్రాకింగ్</string>
+    <string name="community_updates">కమ్యూనిటీ అప్‌డేట్స్</string>
+    <string name="select_language_en">భాషను ఎంచుకోండి (TE)</string>
+    <string name="active_citizen">చురుకైన పౌరుడు</string>
+    <string name="edit_profile">ప్రొఫైల్‌ను సవరించండి</string>
+    <string name="save_changes">మార్పులను సేవ్ చేయండి</string>
+    <string name="name_empty_error">పేరు ఖాళీగా ఉండకూడదు</string>
+    <string name="profile_updated">ప్రొఫైల్ విజయవంతంగా అప్‌డేట్ చేయబడింది</string>
+    <string name="whats_new">కొత్తవి ఏమున్నాయి</string>
+    <string name="whats_new_content">v1.0.1 అప్‌డేట్:\n- బహుళ భాషా మద్దతు జోడించబడింది\n- ప్రొఫైల్ సవరణ మెరుగుపరచబడింది\n- లొకేషన్ సమస్యలు పరిష్కరించబడ్డాయి\n- బగ్ పరిష్కారాలు మరియు పనితీరు మెరుగుదలలు</string>
+    <string name="close">మూసివేయి</string>
+    <string name="profile_photo">ప్రొఫైల్ ఫోటో</string>
+    <string name="choose_photo_option">మీ ప్రొఫైల్ ఫోటోను అప్‌డేట్ చేయడానికి ఒక ఎంపికను ఎంచుకోండి.</string>
+    <string name="take_photo">ఫోటో తీయండి</string>
+    <string name="upload_image">చిత్రాన్ని అప్‌లోడ్ చేయండి</string>
+    <string name="cancel">రద్దు చేయి</string>
+    <string name="log_out">లాగ్ అవుట్</string>
+    <string name="camera_denied">కెమెరా అనుమతి నిరాకరించబడింది</string>
+    <string name="status_resolved">పరిష్కరించబడింది</string>
+</resources>

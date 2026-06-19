@@ -1,0 +1,47 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="80dp"
+    android:height="80dp"
+    android:viewportWidth="80"
+    android:viewportHeight="80">
+
+    <!-- Elevation Shadow -->
+    <path
+        android:pathData="M40,75m-30,0a30,5 0,1 1,60 0a30,5 0,1 1,-60 0"
+        android:fillColor="#1A000000" />
+
+    <!-- Globe Base -->
+    <path
+        android:pathData="M40,40m-30,0a30,30 0,1 1,60 0a30,30 0,1 1,-60 0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:centerX="40"
+                android:centerY="40"
+                android:gradientRadius="30"
+                android:type="radial">
+                <item android:color="#4FC3F7" android:offset="0.0" />
+                <item android:color="#1E88E5" android:offset="0.6" />
+                <item android:color="#0D47A1" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Meridian Lines -->
+    <path
+        android:pathData="M40,10v60 M10,40h60"
+        android:strokeWidth="2"
+        android:strokeColor="#4D00BFA5" />
+
+    <!-- Teal Accents (Continents stylized) -->
+    <path
+        android:pathData="M25,25 Q35,20 45,30 T55,45 Q45,55 30,50 Z"
+        android:fillColor="#1A00BFA5" />
+
+    <!-- Highlight -->
+    <path
+        android:pathData="M25,25 Q40,15 55,25"
+        android:strokeWidth="2"
+        android:strokeColor="#4DFFFFFF"
+        android:strokeLineCap="round" />
+
+</vector>

@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_light">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Top Bar -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:src="@drawable/ic_app_logo_3d" />
+
+                <TextView
+                    style="@style/HeadingBold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:text="PublicEye"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnLanguage"
+                style="@style/Widget.Material3.Button.TonalButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:text="EN"
+                app:cornerRadius="20dp"
+                app:backgroundTint="@color/primary_teal"
+                android:textColor="@color/white" />
+        </RelativeLayout>
+
+        <!-- Greeting Header -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/greetingCard"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_margin="16dp"
+            app:cardCornerRadius="24dp"
+            app:cardElevation="4dp"
+            app:strokeWidth="0dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/greetingGradient"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="24dp">
+
+                <TextView
+                    android:id="@+id/tvGreeting"
+                    style="@style/HeadingBold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Good Morning ☀️"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/tvUserName"
+                    style="@style/HeadingBold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Citizen"
+                    android:textColor="@color/accent_gold"
+                    android:textSize="22sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tvGreeting" />
+
+                <TextView
+                    style="@style/BodyMedium"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Here are today's actions for you"
+                    android:textColor="@color/white"
+                    android:alpha="0.8"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tvUserName" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- SLA Summary Strip -->
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:clipToPadding="false">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <!-- On Track -->
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/cardOnTrack"
+                    android:layout_width="120dp"
+                    android:layout_height="100dp"
+                    android:layout_marginEnd="12dp"
+                    app:cardCornerRadius="16dp"
+                    app:cardElevation="2dp"
+                    app:backgroundTint="#E8F5E9">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="🟢 On Track" android:textColor="#2E7D32" android:textStyle="bold" />
+                        <TextView android:id="@+id/tvOnTrackCount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:textSize="24sp" android:textColor="#2E7D32" android:textStyle="bold" />
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <!-- At Risk -->
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/cardAtRisk"
+                    android:layout_width="120dp"
+                    android:layout_height="100dp"
+                    android:layout_marginEnd="12dp"
+                    app:cardCornerRadius="16dp"
+                    app:cardElevation="2dp"
+                    app:backgroundTint="#FFF3E0">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="🟠 At Risk" android:textColor="#EF6C00" android:textStyle="bold" />
+                        <TextView android:id="@+id/tvAtRiskCount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:textSize="24sp" android:textColor="#EF6C00" android:textStyle="bold" />
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <!-- Breached -->
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/cardBreached"
+                    android:layout_width="120dp"
+                    android:layout_height="100dp"
+                    app:cardCornerRadius="16dp"
+                    app:cardElevation="2dp"
+                    app:backgroundTint="#FFEBEE">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="🔴 Breached" android:textColor="#C62828" android:textStyle="bold" />
+                        <TextView android:id="@+id/tvBreachedCount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:textSize="24sp" android:textColor="#C62828" android:textStyle="bold" />
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <!-- Feature Grid -->
+        <androidx.gridlayout.widget.GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            app:columnCount="2"
+            app:alignmentMode="alignMargins">
+
+            <!-- Card 1: Report Issue -->
+            <include
+                android:id="@+id/cardReportIssue"
+                layout="@layout/item_feature_card"
+                app:layout_columnWeight="1" />
+
+            <!-- Card 2: Citizen Feedback -->
+            <include
+                android:id="@+id/cardFeedback"
+                layout="@layout/item_feature_card"
+                app:layout_columnWeight="1" />
+
+            <!-- Card 3: Find Facilities -->
+            <include
+                android:id="@+id/cardFacilities"
+                layout="@layout/item_feature_card"
+                app:layout_columnWeight="1" />
+
+            <!-- Card 4: Rate Services -->
+            <include
+                android:id="@+id/cardRate"
+                layout="@layout/item_feature_card"
+                app:layout_columnWeight="1" />
+
+            <!-- Card 5: Track Complaint -->
+            <include
+                android:id="@+id/cardTrack"
+                layout="@layout/item_feature_card"
+                app:layout_columnWeight="1" />
+
+            <!-- Card 6: AI Scan -->
+            <include
+                android:id="@+id/cardAI"
+                layout="@layout/item_feature_card"
+                app:layout_columnWeight="1" />
+
+            <!-- Card 7: Notifications -->
+            <include
+                android:id="@+id/cardNotifications"
+                layout="@layout/item_feature_card"
+                app:layout_columnWeight="1" />
+
+            <!-- Card 8: My Complaints -->
+            <include
+                android:id="@+id/cardComplaints"
+                layout="@layout/item_feature_card"
+                app:layout_columnWeight="1" />
+
+        </androidx.gridlayout.widget.GridLayout>
+
+        <View android:layout_width="match_parent" android:layout_height="100dp" />
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

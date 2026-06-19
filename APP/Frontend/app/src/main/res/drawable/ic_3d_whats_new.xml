@@ -1,0 +1,32 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="80dp"
+    android:height="80dp"
+    android:viewportWidth="80"
+    android:viewportHeight="80">
+
+    <!-- Sparkle/Star Burst -->
+    <path
+        android:pathData="M40,15l5,15l15,5l-15,5l-5,15l-5,-15l-15,-5l15,-5z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:centerX="40"
+                android:centerY="40"
+                android:gradientRadius="30"
+                android:type="radial">
+                <item android:color="#FFF176" android:offset="0.0" />
+                <item android:color="#FFD54F" android:offset="0.6" />
+                <item android:color="#F9A825" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Smaller Sparkles -->
+    <path
+        android:pathData="M15,20l3,7l7,3l-7,3l-3,7l-3,-7l-7,-3l7,-3z"
+        android:fillColor="#FFD54F" />
+    <path
+        android:pathData="M60,60l2,5l5,2l-5,2l-2,5l-2,-5l-5,-2l5,-2z"
+        android:fillColor="#FFD54F" />
+
+</vector>

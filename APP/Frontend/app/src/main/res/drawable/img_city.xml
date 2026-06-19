@@ -1,0 +1,20 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="300dp"
+    android:viewportWidth="400"
+    android:viewportHeight="300">
+    <!-- Ground -->
+    <path
+        android:fillColor="#F1F5F9"
+        android:pathData="M0,0h400v300H0z" />
+
+    <!-- Buildings -->
+    <path
+        android:fillColor="#CBD5E1"
+        android:pathData="M40,300V120h40v180z M100,300V60h60v240z M180,300V100h50v200z M250,300V140h40v160z M310,300V80h50v220z" />
+
+    <!-- Windows decoration -->
+    <path
+        android:fillColor="#94A3B8"
+        android:pathData="M110,80h10v10h-10z M130,80h10v10h-10z M110,110h10v10h-10z M130,110h10v10h-10z M110,140h10v10h-10z M130,140h10v10h-10z" />
+</vector>

@@ -1,0 +1,48 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="80dp"
+    android:height="80dp"
+    android:viewportWidth="80"
+    android:viewportHeight="80">
+
+    <!-- Elevation Shadow -->
+    <path
+        android:pathData="M40,75m-30,0a30,5 0,1 1,60 0a30,5 0,1 1,-60 0"
+        android:fillColor="#1A000000" />
+
+    <!-- Clock Case -->
+    <path
+        android:pathData="M40,40m-30,0a30,30 0,1 1,60 0a30,30 0,1 1,-60 0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:centerX="40"
+                android:centerY="40"
+                android:gradientRadius="30"
+                android:type="radial">
+                <item android:color="#FFF176" android:offset="0.0" />
+                <item android:color="#FFD54F" android:offset="0.6" />
+                <item android:color="#F9A825" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- White Clock Face -->
+    <path
+        android:pathData="M40,40m-24,0a24,24 0,1 1,48 0a24,24 0,1 1,-48 0"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Clock Hands -->
+    <path
+        android:pathData="M40,40v-15 M40,40l10,10"
+        android:strokeWidth="3"
+        android:strokeColor="#00BFA5"
+        android:strokeLineCap="round" />
+
+    <!-- Highlight -->
+    <path
+        android:pathData="M25,25 Q40,15 55,25"
+        android:strokeWidth="2"
+        android:strokeColor="#4DFFFFFF"
+        android:strokeLineCap="round" />
+
+</vector>

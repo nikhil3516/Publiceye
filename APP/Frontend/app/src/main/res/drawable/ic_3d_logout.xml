@@ -1,0 +1,42 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="80dp"
+    android:height="80dp"
+    android:viewportWidth="80"
+    android:viewportHeight="80">
+
+    <!-- Elevation Shadow -->
+    <path
+        android:pathData="M25,70h30v6h-30z"
+        android:fillColor="#1A000000" />
+
+    <!-- Door Frame -->
+    <path
+        android:pathData="M20,15h40v50h-40z"
+        android:fillColor="#F44336" />
+
+    <!-- Open Door (3D angle) -->
+    <path
+        android:pathData="M20,15l30,5v40l-30,5z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="20"
+                android:startY="15"
+                android:endX="50"
+                android:endY="65"
+                android:type="linear">
+                <item android:color="#EF5350" android:offset="0.0" />
+                <item android:color="#B71C1C" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Arrow -->
+    <path
+        android:pathData="M55,40h15 M65,35l5,5l-5,5"
+        android:strokeWidth="4"
+        android:strokeColor="#0A1628"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+</vector>

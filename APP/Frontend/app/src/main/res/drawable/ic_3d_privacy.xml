@@ -1,0 +1,41 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="80dp"
+    android:height="80dp"
+    android:viewportWidth="80"
+    android:viewportHeight="80">
+
+    <!-- Elevation Shadow -->
+    <path
+        android:pathData="M25,70h30v6h-30z"
+        android:fillColor="#1A000000" />
+
+    <!-- Lock Shackle -->
+    <path
+        android:pathData="M30,30V25a10,10 0,0 1,20 0v5"
+        android:strokeWidth="6"
+        android:strokeColor="#546E7A" />
+
+    <!-- Lock Body -->
+    <path
+        android:pathData="M25,30h30a4,4 0,0 1,4 4v30a4,4 0,0 1,-4 4h-30a4,4 0,0 1,-4 -4v-30a4,4 0,0 1,4 -4z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="40"
+                android:startY="30"
+                android:endX="40"
+                android:endY="68"
+                android:type="linear">
+                <item android:color="#37474F" android:offset="0.0" />
+                <item android:color="#0A1628" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Gold Keyhole -->
+    <path
+        android:pathData="M40,45m-4,0a4,4 0,1 1,8 0a4,4 0,1 1,-8 0 M40,49v10"
+        android:strokeWidth="2"
+        android:strokeColor="#FFD54F" />
+
+</vector>

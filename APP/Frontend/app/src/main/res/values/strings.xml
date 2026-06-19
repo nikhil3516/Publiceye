@@ -1,0 +1,242 @@
+<resources>
+    <string name="app_name">PublicEye</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_complaints">Complaints</string>
+    <string name="nav_notifications">Notifications</string>
+    <string name="nav_rewards">Rewards</string>
+    <string name="nav_profile">Profile</string>
+
+    <!-- Complaint Categories -->
+    <string name="water_sewage">Water &amp; Sewage</string>
+    <string name="roads_footpaths">Roads &amp; Footpaths</string>
+    <string name="garbage_cleaning">Garbage &amp; Cleaning</string>
+    <string name="street_lights">Street Lights</string>
+    <string name="parks_playgrounds">Parks &amp; Playgrounds</string>
+    <string name="traffic_parking">Traffic &amp; Parking</string>
+    <string name="stray_animals">Stray Animals</string>
+    <string name="drainage">Drainage</string>
+    <string name="public_toilets">Public Toilets</string>
+    <string name="electricity">Electricity</string>
+    <string name="noise_pollution">Noise Pollution</string>
+    <string name="illegal_construction">Illegal Construction</string>
+    <string name="other">Other</string>
+
+    <!-- Complaint Status -->
+    <string name="status_submitted">Submitted</string>
+    <string name="status_under_review">Under Review</string>
+    <string name="status_assigned">Assigned</string>
+    <string name="status_in_progress">In Progress</string>
+    <string name="status_resolved">Resolved</string>
+    <string name="status_rejected">Rejected</string>
+    <string name="status_closed">Closed</string>
+
+    <!-- Quick Actions -->
+    <string name="report_issue">Report Issue</string>
+    <string name="report_issue_desc">Report municipal problems</string>
+    <string name="citizen_feedback">Citizen Feedback</string>
+    <string name="citizen_feedback_desc">Participate in surveys</string>
+    <string name="find_facilities">Find Facilities</string>
+    <string name="find_facilities_desc">Locate public amenities</string>
+    <string name="rate_services">Rate Services</string>
+    <string name="rate_services_desc">Rate government services</string>
+    <string name="live_tracking">Live Tracking</string>
+    <string name="live_tracking_desc">Track service vehicles</string>
+    <string name="community_updates">Community Updates</string>
+    <string name="community_updates_desc">Latest announcements</string>
+
+    <!-- Notifications -->
+    <string name="notif_status_update">Status Update</string>
+    <string name="notif_new_upvote">New Upvote</string>
+    <string name="notif_admin_message">Admin Message</string>
+    <string name="notif_new_survey">New Survey</string>
+    <string name="notif_reward_earned">Reward Earned</string>
+    <string name="notif_community_update">Community Update</string>
+    <string name="notif_nearby_complaint">Nearby Complaint</string>
+    <!-- Splash -->
+    <string name="splash_tagline">Your City, Your Responsibility</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_title">Your City,\nYour Responsibility</string>
+    <string name="onboarding_desc">Join thousands of citizen making a difference in their communities every single day</string>
+    <string name="easy_reporting_sub">Report civic issues in seconds</string>
+    <string name="fast_resolution_sub">Track and resolve quickly</string>
+    <string name="easy_reporting">Easy Reporting</string>
+    <string name="fast_resolution">Fast Resolution</string>
+    <string name="get_started">Get Started</string>
+    <string name="terms_privacy_policy">By continuing, you agree to our Terms and Privacy Policy.</string>
+    <!-- Home -->
+    <string name="welcome_back">Welcome back,</string>
+    <string name="active_citizen">Active Citizen</string>
+    <string name="good_morning">Good Morning, %1$s</string>
+    <string name="take_action">Take Action</string>
+    <string name="feedback">Feedback</string>
+    <string name="facilities">Facilities</string>
+    <string name="tracking">Tracking</string>
+    <string name="updates">Updates</string>
+    <string name="community_rewards">Community Rewards</string>
+    <string name="rewards_desc">Redeem your civic points for local business discounts.</string>
+    <string name="green_city_title">Green City Initiative</string>
+    <string name="green_city_desc">Volunteer for park restoration and earn double rewards this weekend.</string>
+    <!-- Login -->
+    <string name="welcome_back_title">Welcome Back</string>
+    <string name="login_subtitle">Sign in to continue reporting issues</string>
+    <string name="email_label">Email Address</string>
+    <string name="email_placeholder">Enter your email</string>
+    <string name="password_label">Password</string>
+    <string name="password_placeholder">Enter your password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="sign_in">Sign In</string>
+    <string name="no_account">Don\'t have an account? </string>
+    <string name="register_now">Register Now</string>
+    <string name="admin_login_link">Admin Login →</string>
+    <!-- Register -->
+    <string name="create_account">Create Account</string>
+    <string name="register_subtitle">Join PublicEye to report civic issues</string>
+    <string name="full_name_label">Full Name</string>
+    <string name="full_name_placeholder">Enter your full name</string>
+    <string name="phone_label">Phone Number</string>
+    <string name="phone_placeholder">+91 98765 43210</string>
+    <string name="ward_label">Ward</string>
+    <string name="ward_placeholder">Ward 12</string>
+    <string name="city_label">City</string>
+    <string name="city_placeholder">Chennai</string>
+    <string name="password_create_placeholder">Create a strong password</string>
+    <string name="confirm_password_label">Confirm Password</string>
+    <string name="confirm_password_placeholder">Re-enter your password</string>
+    <string name="already_have_account">Already have an account? </string>
+    <string name="sign_in_link">Sign In</string>
+    <!-- Admin Login -->
+    <string name="admin_portal">Admin Portal</string>
+    <string name="authorized_access_only">Authorized access only</string>
+    <string name="admin_email_label">Admin Email</string>
+    <string name="admin_email_placeholder">admin@publiceye.com</string>
+    <string name="admin_password_placeholder">Enter admin password</string>
+    <string name="access_admin_dashboard">Access Admin Dashboard</string>
+    <string name="back_to_user_login">← Back to User Login</string>
+    <!-- Home Proverb Carousel -->
+    <string name="banner_title_1">Join To Make</string>
+    <string name="banner_sub_1">Your City Better</string>
+    <string name="banner_title_2">Our Clean City</string>
+    <string name="banner_sub_2">Our Responsibility</string>
+    <string name="banner_title_3">PublicEye</string>
+    <string name="banner_sub_3">Your Voice Matters</string>
+
+    <string name="good_afternoon">Good Afternoon, Welcome\nActive Citizen</string>
+    <string name="today_actions">Here are today\'s actions for you</string>
+    <string name="select_language_en">Select Language (EN)</string>
+
+    <!-- Action Subtitles -->
+    <string name="report_issue_sub">Report civic problems</string>
+    <string name="citizen_feedback_sub">Share your thoughts</string>
+    <string name="find_facilities_title">Find Public\nFacilities</string>
+    <string name="find_facilities_sub">Locate nearby services</string>
+    <string name="rate_services_sub">Rate civic services</string>
+    <string name="track_complaint">Track Complaint</string>
+    <string name="track_complaint_sub">Monitor your reports</string>
+    <string name="community_updates_sub">Latest from your area</string>
+    <!-- Notifications -->
+    <string name="notifications_title">Notifications</string>
+    <string name="unread">Unread</string>
+    <string name="previously_read">Previously read</string>
+    <string name="complaint_acknowledged">Complaint Acknowledged</string>
+    <string name="status_update">Status Update</string>
+    <string name="community_update">Community Update</string>
+    <string name="complaint_resolved">Complaint Resolved</string>
+    <string name="system_announcement">System Announcement</string>
+    <!-- Complaints -->
+    <string name="posted">Posted</string>
+    <string name="voted">Voted</string>
+    <string name="nearby">Nearby</string>
+    <string name="city">City</string>
+    <string name="your_activity">Your Activity</string>
+    <string name="search">Search</string>
+    <!-- Report Issue -->
+    <string name="choose_category_post">Choose Category - Post a complaint</string>
+    <string name="submit">Submit</string>
+    <string name="dirty_spot">Dirty Spot</string>
+    <string name="garbage_dump">Garbage Dump</string>
+    <string name="garbage_vehicle">Garbage Vehicle Not Arrived</string>
+    <string name="burning_garbage">Burning Garbage</string>
+    <string name="sweeping_not_done">Sweeping Not Done</string>
+    <string name="dustbins_not_cleaned">Dustbins Not Cleaned</string>
+    <string name="open_defecation">Open Defecation</string>
+    <string name="sewerage_overflow">Sewerage Overflow</string>
+    <string name="blocked_public_toilet">Blocked Public Toilet</string>
+    <string name="uncleaning_public_toilet">Uncleaning Public Toilet</string>
+    <string name="public_urination">Public Urination Spot</string>
+    <string name="improper_waste">Improper Waste Disposal</string>
+    <string name="open_manholes">Open Manholes</string>
+    <string name="unsafe_manhole">Unsafe Manhole</string>
+    <string name="construction_debris">Construction Debris</string>
+    <string name="dead_animals">Dead Animals</string>
+    <!-- Forgot Password -->
+    <string name="forgot_password_title">Forgot Password?</string>
+    <string name="forgot_password_subtitle">Enter your email to receive a reset code</string>
+    <string name="send_reset_code">Send Reset Code</string>
+    <string name="back_to_login">Back to Login</string>
+
+    <!-- Profile Extra -->
+    <string name="edit_profile">Edit Profile</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="name_empty_error">Name cannot be empty</string>
+    <string name="profile_updated">Profile updated successfully</string>
+    <string name="whats_new">What\'s New</string>
+    <string name="whats_new_content">v1.0.1 Update:\n- Added Multi-language support (6 languages)\n- Improved Profile editing\n- Fixed location fetching issues\n- Bug fixes and performance improvements</string>
+    <string name="close">Close</string>
+    <string name="profile_photo">Profile Photo</string>
+    <string name="choose_photo_option">Choose an option to update your profile photo.</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="upload_image">Upload Image</string>
+    <string name="cancel">Cancel</string>
+    <string name="log_out">Log Out</string>
+    <string name="camera_denied">Camera permission denied</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_title_1">Your City, Your Voice</string>
+    <string name="onboarding_desc_1">Report civic issues instantly</string>
+    <string name="onboarding_title_2">Smart AI Severity Detection</string>
+    <string name="onboarding_desc_2">Our AI instantly classifies your complaint as High, Medium or Low priority</string>
+    <string name="onboarding_title_3">Live Complaint Tracking</string>
+    <string name="onboarding_desc_3">Follow your complaint from submission to resolution with real-time SLA updates</string>
+    <string name="next">Next</string>
+    <string name="get_started_btn">Get Started</string>
+    <string name="skip">Skip</string>
+
+    <!-- Auth -->
+    <string name="welcome_back_auth">Welcome Back</string>
+    <string name="login_btn">Login</string>
+    <string name="register_link">New here? Register</string>
+    <string name="admin_login_link_auth">Admin Login</string>
+    <string name="continue_with_google">Continue with Google</string>
+    <string name="verify_otp">Verify OTP</string>
+    <string name="otp_hint">Enter the 6-digit code sent to your phone</string>
+    <string name="verify_continue">Verify &amp; Continue</string>
+    <string name="create_account_auth">Create Account</string>
+    <string name="register_desc">Join PublicEye to report civic issues</string>
+
+    <!-- Home -->
+    <string name="good_morning_greet">Good Morning ☀️, %1$s</string>
+    <string name="good_afternoon_greet">Good Afternoon 🌤️, %1$s</string>
+    <string name="good_evening_greet">Good Evening 🌆, %1$s</string>
+    <string name="good_night_greet">Good Night 🌙, %1$s</string>
+    <string name="today_actions_sub">Here are today\'s actions for you</string>
+    <string name="on_track_label">On Track</string>
+    <string name="at_risk_label">At Risk</string>
+    <string name="breached_label">Breached</string>
+    <string name="quick_actions_title">Quick Actions</string>
+    <string name="report_new_issue_btn">Report New Issue</string>
+    <string name="give_feedback_btn">Give Feedback</string>
+    <string name="rate_service_btn">Rate a Service</string>
+</resources>
+
+
+
+
+
+
+
+
+
+

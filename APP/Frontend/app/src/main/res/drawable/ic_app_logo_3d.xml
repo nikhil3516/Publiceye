@@ -1,0 +1,73 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <!-- Elevation Shadow -->
+    <path
+        android:pathData="M10,20h80a10,10 0,0 1,10 10v60a10,10 0,0 1,-10 10h-80a10,10 0,0 1,-10 -10v-60a10,10 0,0 1,10 -10z"
+        android:fillColor="#1A000000" />
+
+    <!-- Deep Navy Background -->
+    <path
+        android:pathData="M10,10h80a10,10 0,0 1,10 10v60a10,10 0,0 1,-10 10h-80a10,10 0,0 1,-10 -10v-60a10,10 0,0 1,10 -10z"
+        android:fillColor="#0A1628" />
+
+    <!-- Outer Eye Shape with Teal Gradient -->
+    <path
+        android:pathData="M15,50Q50,15 85,50Q50,85 15,50Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:centerX="50"
+                android:centerY="50"
+                android:gradientRadius="35"
+                android:type="radial">
+                <item android:color="#E0F7FA" android:offset="0.0" />
+                <item android:color="#00BFA5" android:offset="0.6" />
+                <item android:color="#004D40" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- 3D Iris depth layers -->
+    <!-- Dark Teal Outer Ring -->
+    <path
+        android:pathData="M50,50m-18,0a18,18 0,1 1,36 0a18,18 0,1 1,-36 0"
+        android:fillColor="#004D40" />
+
+    <!-- Bright Teal Mid Ring -->
+    <path
+        android:pathData="M50,50m-14,0a14,14 0,1 1,28 0a14,14 0,1 1,-28 0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="50"
+                android:startY="36"
+                android:endX="50"
+                android:endY="64"
+                android:type="linear">
+                <item android:color="#00BFA5" android:offset="0.0" />
+                <item android:color="#00897B" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Deep Navy Pupil -->
+    <path
+        android:pathData="M50,50m-8,0a8,8 0,1 1,16 0a8,8 0,1 1,-16 0"
+        android:fillColor="#0D1B2A" />
+
+    <!-- Light Reflection -->
+    <path
+        android:pathData="M54,46m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Gold/Amber highlight on upper eyelid -->
+    <path
+        android:pathData="M25,38Q50,22 75,38"
+        android:strokeWidth="1.5"
+        android:strokeColor="#FFD54F"
+        android:strokeLineCap="round" />
+
+</vector>

@@ -1,0 +1,37 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="80dp"
+    android:height="80dp"
+    android:viewportWidth="80"
+    android:viewportHeight="80">
+
+    <!-- Elevation Shadow -->
+    <path
+        android:pathData="M30,72 Q40,78 50,72"
+        android:strokeWidth="6"
+        android:strokeColor="#1A000000"
+        android:strokeLineCap="round" />
+
+    <!-- Flame Body -->
+    <path
+        android:pathData="M40,10 Q25,35 25,55 A15,15 0,0 0,55,55 Q55,35 40,10 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="40"
+                android:startY="10"
+                android:endX="40"
+                android:endY="70"
+                android:type="linear">
+                <item android:color="#FF5252" android:offset="0.0" />
+                <item android:color="#EF5350" android:offset="0.5" />
+                <item android:color="#B71C1C" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Inner Glow -->
+    <path
+        android:pathData="M40,25 Q32,45 32,55 A8,8 0,0 0,48,55 Q48,45 40,25 Z"
+        android:fillColor="#FFD54F" />
+
+</vector>
