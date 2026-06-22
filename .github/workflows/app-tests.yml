@@ -1,0 +1,112 @@
+name: App Testing Suite
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'APP/**'
+      - '.github/workflows/app-tests.yml'
+  pull_request:
+    branches: [ main ]
+    paths:
+      - 'APP/**'
+      - '.github/workflows/app-tests.yml'
+
+jobs:
+  android-tests:
+    name: Android Build & Unit Tests
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Set up JDK 21
+      uses: actions/setup-java@v4
+      with:
+        distribution: 'zulu'
+        java-version: '21'
+        cache: 'gradle'
+
+    - name: Make gradlew executable
+      working-directory: APP
+      run: chmod +x gradlew
+
+    - name: Run Android Unit Tests
+      working-directory: APP
+      run: ./gradlew testDebugUnitTest
+
+    - name: Build Debug APK
+      working-directory: APP
+      run: ./gradlew assembleDebug
+
+  backend-checks:
+    name: FastAPI Backend Verify
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.10'
+        cache: 'pip'
+        cache-dependency-path: 'APP/Backend/requirements.txt'
+
+    - name: Install dependencies
+      working-directory: APP/Backend
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    - name: Compile python files (syntax check)
+      working-directory: APP/Backend
+      run: python -m compileall .
+
+  appium-mock-tests:
+    name: Appium QA Report Simulation
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+        cache: 'npm'
+        cache-dependency-path: 'APP/Frontend/Appium-tests/package-lock.json'
+
+    - name: Install QA dependencies
+      working-directory: APP/Frontend/Appium-tests
+      run: npm ci
+
+    - name: Generate Premium QA Excel Report
+      working-directory: APP/Frontend/Appium-tests
+      run: node generate_excel_report.js
+
+  load-testing:
+    name: Baseline Load Testing
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+        cache: 'npm'
+        cache-dependency-path: 'APP/Load-Testing/package-lock.json'
+
+    - name: Install load testing dependencies
+      working-directory: APP/Load-Testing
+      run: npm ci
+
+    - name: Run Baseline Load Test Simulation
+      working-directory: APP/Load-Testing
+      run: npm start
