@@ -1,0 +1,54 @@
+name: Web Testing Suite
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+        cache: 'npm'
+        cache-dependency-path: 'WEB/package-lock.json'
+
+    - name: Install root web dependencies
+      working-directory: WEB
+      run: npm ci
+
+    - name: Run Backend Generator Tests (300 cases)
+      working-directory: WEB
+      run: npx tsx backend/"Automated Test"/generate_backend_tests.js
+
+    - name: Run UI Generator Tests (300 cases)
+      working-directory: WEB
+      run: npx tsx backend/"Automated Test"/generate_ui_tests.js
+
+    - name: Run Frontend Generator Tests (200 cases)
+      working-directory: WEB
+      run: npx tsx frontend/frontend/generate_frontend_tests.js
+
+    - name: Run Load Simulation Benchmark
+      working-directory: WEB
+      run: npx tsx backend/"Automated Test"/run_load_test.js
+
+    - name: Install and Run Backend Selenium Integration Tests (120 cases)
+      working-directory: WEB/backend/Selenium-tests
+      run: |
+        npm ci
+        npm test
+
+    - name: Install and Run Frontend Selenium UI Tests (200 cases)
+      working-directory: WEB/frontend/Selenium-tests
+      run: |
+        npm ci
+        npm test
